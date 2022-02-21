@@ -1,0 +1,255 @@
+Source\vicp\BSW\MCUPlatform\Core\OSAPI\CpuUsageRate.c
+Source\vicp\ComplexDriver\CANdriver\gen\appdescdev.c
+Source\Application\CanDiag\CanDiagService.c
+Source\vicp\ComplexDriver\CANdriver\gen\appdesc.c
+Source\vicp\ComplexDriver\CANdriver\gen\desc.c
+Source\vicp\ComplexDriver\CANdriver\gen\tp_par.c
+Source\vicp\ComplexDriver\CANdriver\bsw\tpmc.c
+Source\vicp\BSW\MCUPlatform\Core\OSAPI\StackUsageRate.c
+Source\vicp\ComplexDriver\CANdriver\ComDriver\CanDriver.c
+Source\vicp\ComplexDriver\CANdriver\ComDriver\CAN_APP_DRV.c
+Source\Bootloader_spi\Source\01_Configuration\01_IDE\OUT\Bootloader_spi.c
+Source\vicp\RTE\Signal\Sig_Combine.c
+Source\vicp\RTE\Signal\Signal.c
+Source\vicp\RTE\Signal\Signal_cfg.c
+Source\vicp\RTE\HAL\HAL.c
+Source\vicp\RTE\HAL\HAL_Block.c
+Source\vicp\RTE\HAL\HAL_CFG.c
+Source\vicp\RTE\CanSignal\CANSIG_CFG.c
+Source\vicp\ComplexDriver\IoSystem\ADC_APP.c
+Source\vicp\ComplexDriver\IoSystem\GPIO_APP.c
+Source\vicp\ComplexDriver\IoSystem\ICS_Driver.c
+Source\vicp\ComplexDriver\EEPDriver\EEPdriver_eel.c
+Source\vicp\ComplexDriver\ComplexDriver_Cfg\ADC_CFG.c
+Source\vicp\ComplexDriver\ComplexDriver_Cfg\GPIO_CFG.c
+Source\vicp\ComplexDriver\CANdriver\gen\can_par.c
+Source\vicp\ComplexDriver\CANdriver\gen\drv_par.c
+Source\vicp\ComplexDriver\CANdriver\gen\il_par.c
+Source\vicp\ComplexDriver\CANdriver\gen\nm_par.c
+Source\vicp\ComplexDriver\CANdriver\gen\v_par.c
+Source\vicp\ComplexDriver\CANdriver\bsw\can_drv.c
+Source\vicp\ComplexDriver\CANdriver\bsw\il.c
+Source\vicp\ComplexDriver\CANdriver\bsw\nm_osek.c
+Source\vicp\ComplexDriver\CANdriver\bsw\vstdlib.c
+Source\vicp\BSW\MCUPlatform\Service\SystemService\BusMng.c
+Source\vicp\BSW\MCUPlatform\Service\SystemService\EEPJob.c
+Source\vicp\BSW\MCUPlatform\Service\SystemService\EEPJobManager.c
+Source\vicp\BSW\MCUPlatform\Service\SystemService\EEPTable.c
+Source\vicp\BSW\MCUPlatform\Service\SystemService\SystemMode.c
+Source\vicp\BSW\MCUPlatform\Service\SystemService\SystemState.c
+Source\vicp\BSW\MCUPlatform\Service\SystemService\TimerMng.c
+Source\vicp\BSW\MCUPlatform\Service\SystemCore\CyclicMng.c
+Source\vicp\BSW\MCUPlatform\Service\SystemCore\EventMng.c
+Source\vicp\BSW\MCUPlatform\Service\SystemCore\JobMng.c
+Source\vicp\BSW\MCUPlatform\Service\SystemCore\SINI.c
+Source\vicp\BSW\MCUPlatform\Service\SystemCore\SysSwitch.c
+Source\vicp\BSW\MCUPlatform\Service\Lib\Container.c
+Source\vicp\BSW\MCUPlatform\Service\Lib\Tools.c
+Source\vicp\BSW\MCUPlatform\Service\Hook\Service_hooks.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemService_Cfg\SystemMode_Cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemService_Cfg\SystemState_Cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg\CyclicTask_Cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg\EventMng_Cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg\SINI_cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\EEP_Cfg\EEPDataCfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\EEP_Cfg\EEPTable_Cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Core_cfg\Core_Cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\CSI_Cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\EXTI_cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\IIC_CFG.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\IRQ_cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\McuInit.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\S_IIC_CFG.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\Stbc_cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\TimerUnit_cfg.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\UART_CFG.c
+Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\Pwmd_cfg.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\osgen\intvect_c0.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\osgen\osConfigBlock.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\osgen\osStacks.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\osgen\tcb.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osek.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osekasm.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osekerr.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osekevnt.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\oseksched.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osekstart.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osektask.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osektime.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\OSAdapter.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\OSTimer.c
+Source\vicp\BSW\MCUPlatform\Core\OSAPI\OSAPI.c
+Source\vicp\BSW\MCUPlatform\Core\OSAPI\os_alarm.c
+Source\vicp\BSW\MCUPlatform\Core\OSAPI\os_wdg.c
+Source\vicp\BSW\MCUPlatform\Core\McuBoard\Startup.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\CSI.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\EXTI.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\FIFO.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\GPIO.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\IIC.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\IRQ.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\Mcu.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\Ostm.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\S_IIC.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\TimerUnit.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\adc.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\clocks.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\Pwmd.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\stbc.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\uart.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\wdg.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\FDL\lib\r_fdl_hw_access.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\FDL\lib\r_fdl_user_if.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\FDL\lib\r_fdl_user_if_init.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\EEL\lib\r_eel_basic_fct.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\EEL\lib\r_eel_user_if.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\fdl_user.c
+Source\Protocol\EEPService\EEPData.c
+Source\Protocol\CanManager\CanManager.c
+Source\Application\SystemStatus\SystemStatus.c
+Source\Application\CanApp\CanApp.c
+Source\vicp\ComplexDriver\PWMDDriver\Pwmd_ComplexDriver.c
+Source\vicp\ComplexDriver\TauPWMDriver\TauPwm_ComplexDriver.c
+Source\vicp\ComplexDriver\CapDriver\Capture_ComplexDriver.c
+Source\vicp\ComplexDriver\HwTimerDriver\HwTimer_ComplexDriver.c
+Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Timinghook.c
+Source\vicp\BSW\MCUPlatform\Basicdriver\Source\Trace.c
+
+
+Source\vicp\ComplexDriver\SocDriver\SocDriver.c
+Source\Application\Upgrade\Upgrade.c
+Source\Application\Service\SocTransmitManager.c
+Source\Application\Service\SocManager.c
+Source\Application\INPUT\SRC\KEYBOARD_IO.c
+Source\Application\INPUT\SRC\KEYBOARD_AD.c
+Source\Application\INPUT\SRC\KEYBOARD.c
+Source\Application\Service\test_spi.c
+Source\Protocol\PowerManager\PowerManager.c
+Source\Application\RVC\SRC\RVC.c
+Source\Protocol\SocCommunicator\SocMsgHandler.c
+Source\Application\DIAG\SRC\UART_ENG.c
+Source\Application\DIAG\SRC\ENG_MSG.c
+Source\Application\DIAG\SRC\ENG_DATA.c
+Source\Application\DIAG\SRC\ENG_COMM.c
+Source\Application\DIAG\SRC\ENG_CMD.c
+Source\Application\DIAG\SRC\ENG_APP.c
+Source\Application\DIAG\SRC\DIAG_OUTPUT.c
+Source\Application\DIAG\SRC\DIAG_APP.c
+Source\Application\RTC\SRC\RTC.c
+Source\Application\OUTPUT\SRC\ILL_LCD.c	
+
+
+
+
+	-I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR
+	-I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os
+	-I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\_Common
+	-I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\osgen
+	-I./Source\vicp\BSW\MCUPlatform\Core\OSAPI
+	-I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter
+	-I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\Inc
+	-I./Source\vicp\BSW\MCUPlatform\Core\Inc
+	-I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Core_cfg
+	-I./Source\vicp\BSW\mcuplatform\core\osadapter
+	-I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg
+	-I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg
+	-I./Source\vicp\BSW\MCUPlatform\Service\Inc
+	-I./Source\vicp\BSW\MCUPlatform\Service\Hook
+	-I./Source\vicp\BSW\MCUPlatform\Service\Lib
+	-I./Source\vicp\BSW\MCUPlatform\Service\SystemCore
+	-I./Source\vicp\BSW\MCUPlatform\Service\SystemService
+	-I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemService_Cfg
+	-I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg
+	-I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\EEP_Cfg
+	-I./Source\vicp\BSW\MCUPlatform\Basicdriver\Source
+	-I./Source\vicp\BSW\MCUPlatform\Basicdriver\Inc
+	-I./Source\protocol\inc
+	-I./Source\vicp\BSW\TestSub
+	-I./Source\vicp\BSW\MCUPlatform
+	-I./Source\vicp\BSW\MCUPlatform\Core\McuBoard
+	-I./Source\Application\CanApp
+	-I./Source\vicp\ComplexDriver\ComplexDriver_Cfg
+	-I./Source\vicp\ComplexDriver\inc
+	-I./Source\vicp\BSW\Service\Inc
+	-I./Source\vicp\ComplexDriver\IoSystem
+	-I./Source\vicp\RTE\INC
+	-I./Source\vicp\RTE\Signal
+	-I./Source\vicp\RTE\hal
+	-I./Source\vicp\RTE\CanSignal
+	-I./Source\vicp\ComplexDriver\CANdriver\bsw
+	-I./Source\vicp\ComplexDriver\CANdriver\gen
+	-I./Source\vicp\ComplexDriver\EEPDriver
+	-I./Source\Config\inc
+	-I./Source\Lib\INC
+	-I./Source\vicp\ComplexDriver\SocDriver
+	-I./Source\Protocol\inc
+	-I./Source\Protocol\SocCommunicator
+	-I./Source\Application\OUTPUT\INC
+	-I./Source\Application\Service\INC
+	-I./Source\Application\SystemStatus\
+	-I./Source\vicp\ComplexDriver\CAN\
+	-I./Source\Application\diag\inc
+	-I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash
+	-I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\FDL\
+	-I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\EEL\
+	-I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\FDL\lib\
+	-I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\EEL\lib\
+	-I./Source\Protocol\INC
+	-I./Source\Protocol\EEPService
+	-I./Source\vicp\ComplexDriver\CANdriver
+	-I./Source\Protocal\CanManager
+	-I./Source\Application\RVC\INC
+	-I./Source\Protocol\PowerManager
+	-I./Source\Application\RTC\INC
+	-DMCU_PLATFORM_TEMPLATE_100
+	-I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\osgen\int_osgen
+	-I./Source\vicp\ComplexDriver\PWMDDriver
+	-I./Source\vicp\ComplexDriver\TauPWMDriver
+	-I./Source\vicp\ComplexDriver\CapDriver
+	-I./Source\vicp\ComplexDriver\HwTimerDriver
+	-I./Source\vicp\ComplexDriver\CANdriver\ComDriver
+	-DUSE_SPI_BOOT
+	-I./Source\Application\CanDiag
+
+DeviceFile\dr7f701023.ld
+
+    -v
+
+
+	-bsp rh850_f1l
+	-cpu=rh850g3k
+	-object_dir=obj
+	:sourceDir=.
+
+	-G
+	-H
+	-dual_debug
+	-full_debug_info
+	-Omaxdebug
+	-inline_prologue
+	
+	-no_v850_simd
+	-fsoft
+	
+	--unknown_pragma_warnings
+	-D__TOOL_GHS__
+	
+
+	-gsize  
+	-Mu        
+	-Ml     
+	-Mx    
+	-callgraph
+	
+
+	-srec
+ 
+	-linker_warnings
+	--no_trace_includes
+	-check=noassignbound
+	-fsoft
+	-H
+	-G
+	-preprocess_assembly_files
+
+    -o .\obj\vicp.elf

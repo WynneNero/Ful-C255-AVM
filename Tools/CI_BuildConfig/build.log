@@ -1,0 +1,101 @@
+mkdir obj
+Source\vicp\BSW\MCUPlatform\Core\OSAPI\CpuUsageRate.c:
+C:\ghs\comp_201417\ecom800.exe --option=70 -Z848 -X4593 -Z752 -X722 -X682 \
+        -X735 -X780 -X687 -Z1715 -X1165 --c --gnu=safe -Z1835 \
+        --diag_warning=223 --diag_warning=1547,1791 -Z1840 --config \
+        t,t,l,,2,4,4,8,4,2,4,4,8,4,8,32,4,8,8,4,8,8,-1,f,f,-1,i,ui,1,f,t,1,1,8,1,8,72,4,6,f,3,0,0 \
+        --option=37 --option=27 --option=30 --option=40 --option=96 \
+        --option=219 --option=147 --gnu_version=40300 -$ -X70 -X1532 -X1602 \
+        -X540 --option=124 --alternative_tokens --ghs_xref=1 \
+        --diag_remark=667,1546 --pragma_diag_level=warn \
+        --display_error_number -Z1672 -Z298 -Z295 -X4856 -Z78 -X947 -Z3535 \
+        -X3536 -Z479 -Z1250 -X3362 -X2867 -X2869 -X2868 -X4166 --long_long \
+        -Z1208 -Z445 -X777 -Z1526 -X1312 -cpu=rh850g3k -Z942 -Z941 -Z1254 \
+        -Z1354 -X1271 -Z1682 -X857 -Z4145 -Z4601 -Z4423 -Z4839 -Z4881 -Z4882 \
+        -Z1106 -X1264 -X1558 -Z1562 -Z1563 -Z3978 -Z538 -Z1585 -X529 -X1752 \
+        -Z3233 -Z4293 -X982 -X509 -Z3909 -Z4129 -Z4130 -Z4895 -X4989 -X5098 \
+        -X5099 -Z5018 -X4995 -Z5230 -Z5236 -Z5204 -Z3506 -Z2376 -X4574 -X4572 \
+        -Z54 -X9 -X307 -X312 -X470 -X3818 -X3617 -D__PROTOTYPES__ \
+        -D__STDC__=0 -D__STDC_HOSTED__=1 -D__STDC_VERSION__=199409L \
+        -D__ATTRIBUTES -D__EDG__ -D__ghs -D__ghs__ -D__SoftwareFloat \
+        -D__SoftwareFloat__ -D__SoftwareDouble -D__SoftwareDouble__ \
+        -D__ghs_asm=2 -D__ELF -D__ELF__ -D__CORE_V850E3V5__ \
+        -D__CORE_V850E2V3__ -D__CORE_V850E2R__ -D__CORE_V850E2__ \
+        -D__CORE_V850E__ -D__CORE_V850__ -D__V850E -D__V850E__ -D__V850E2 \
+        -D__V850E2__ -D__V850E2R -D__V850E2R__ -D__V850E2RV3 -D__V850E2RV3__ \
+        -D__V850E2V3 -D__V850E2V3__ -D__V850E3 -D__V850E3__ -D__V850E3V5 \
+        -D__V850E3V5__ -D__RH850 -D__RH850__ -D__V850 -D__V850__ \
+        -D__RH850G3K__ -D__RH850G3K -D__V800_registermode=32 \
+        -D__V800_registermode__=32 -D__RH850_FPU_VERSION=3 \
+        -D__RH850_FPU_VERSION__=3 -D__V800 -D__V800__ -D__v850 -D__v851__ \
+        -D__v850e__ -D__ghs_alignment=8 -D__ghs_max_pack_value=8 -D__ghs_sda \
+        -D__ghs_zda -D__LittleEndian -D__LittleEndian__ -D__LITTLE_ENDIAN__ \
+        -D__IeeeFloat -D__IeeeFloat__ -D__Char_Is_Signed__ -D__SIGNED_CHARS__ \
+        -D__Ptr_Is_Unsigned__ -D__Field_Is_Signed__ \
+        -D__Enum_Field_Is_Signed__ -D__Int_Is_32 -D__Long_Is_32 -D__LL_Is_64 \
+        -D__Ptr_Is_32 -D__CHAR_BIT=8 -D__SHRT_BIT=16 -D__INT_BIT=32 \
+        -D__LONG_BIT=32 -D__WCHAR_BIT=32 -D__TIME_T_BIT=32 -D__PTR_BIT=32 \
+        -D__FUNCPTR_BIT=32 -D__TIME_T_BIT=32 -D__LL_BIT=64 -D__LLONG_BIT=64 \
+        -D__MAX_BIT=64 -D__LDBL_BIT=64 -D__LDBL_SIZE=8 -D__REG_BIT=32 \
+        -D__FREG_BIT=32 -D__Reg_Is_32 -D__WChar_Is_Signed__ \
+        -D__WChar_Is_Long__ -D__ghs_board_is_rh850_f1l \
+        -DMCU_PLATFORM_TEMPLATE_100 -DUSE_SPI_BOOT -D__TOOL_GHS__ \
+        -I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR \
+        -I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os \
+        -I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\_Common \
+        -I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\osgen \
+        -I./Source\vicp\BSW\MCUPlatform\Core\OSAPI \
+        -I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter \
+        -I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\Inc \
+        -I./Source\vicp\BSW\MCUPlatform\Core\Inc \
+        -I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Core_cfg \
+        -I./Source\vicp\BSW\mcuplatform\core\osadapter \
+        -I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg \
+        -I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg \
+        -I./Source\vicp\BSW\MCUPlatform\Service\Inc \
+        -I./Source\vicp\BSW\MCUPlatform\Service\Hook \
+        -I./Source\vicp\BSW\MCUPlatform\Service\Lib \
+        -I./Source\vicp\BSW\MCUPlatform\Service\SystemCore \
+        -I./Source\vicp\BSW\MCUPlatform\Service\SystemService \
+        -I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemService_Cfg \
+        -I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg \
+        -I./Source\vicp\BSW\MCUPlatform\McuPlatform_cfg\EEP_Cfg \
+        -I./Source\vicp\BSW\MCUPlatform\Basicdriver\Source \
+        -I./Source\vicp\BSW\MCUPlatform\Basicdriver\Inc \
+        -I./Source\protocol\inc -I./Source\vicp\BSW\TestSub \
+        -I./Source\vicp\BSW\MCUPlatform \
+        -I./Source\vicp\BSW\MCUPlatform\Core\McuBoard \
+        -I./Source\Application\CanApp \
+        -I./Source\vicp\ComplexDriver\ComplexDriver_Cfg \
+        -I./Source\vicp\ComplexDriver\inc -I./Source\vicp\BSW\Service\Inc \
+        -I./Source\vicp\ComplexDriver\IoSystem -I./Source\vicp\RTE\INC \
+        -I./Source\vicp\RTE\Signal -I./Source\vicp\RTE\hal \
+        -I./Source\vicp\RTE\CanSignal \
+        -I./Source\vicp\ComplexDriver\CANdriver\bsw \
+        -I./Source\vicp\ComplexDriver\CANdriver\gen \
+        -I./Source\vicp\ComplexDriver\EEPDriver -I./Source\Config\inc \
+        -I./Source\Lib\INC -I./Source\vicp\ComplexDriver\SocDriver \
+        -I./Source\Protocol\inc -I./Source\Protocol\SocCommunicator \
+        -I./Source\Application\OUTPUT\INC -I./Source\Application\Service\INC \
+        -I./Source\Application\SystemStatus\ \
+        -I./Source\vicp\ComplexDriver\CAN\ -I./Source\Application\diag\inc \
+        -I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash \
+        -I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\FDL\ \
+        -I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\EEL\ \
+        -I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\FDL\lib\ \
+        -I./Source\vicp\BSW\MCUPlatform\Basicdriver\DataFlash\EEL\lib\ \
+        -I./Source\Protocol\INC -I./Source\Protocol\EEPService \
+        -I./Source\vicp\ComplexDriver\CANdriver \
+        -I./Source\Protocal\CanManager -I./Source\Application\RVC\INC \
+        -I./Source\Protocol\PowerManager -I./Source\Application\RTC\INC \
+        -I./Source\vicp\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\osgen\int_osgen \
+        -I./Source\vicp\ComplexDriver\PWMDDriver \
+        -I./Source\vicp\ComplexDriver\TauPWMDriver \
+        -I./Source\vicp\ComplexDriver\CapDriver \
+        -I./Source\vicp\ComplexDriver\HwTimerDriver \
+        -I./Source\vicp\ComplexDriver\CANdriver\ComDriver \
+        -I./Source\Application\CanDiag -IC:\ghs\comp_201417\include\v800 \
+        -IC:\ghs\comp_201417\ansi -g -X1361 -X568 -X781 -X929 -X1189 -X1610 \
+        -X1116 -X1875 -D__LANGUAGE_C -D__LANGUAGE_C__ -H --output_dir obj \
+        -sym=D:\Renesas_Platform\SGMW_CN300_Source\SGMW_CN300_MCU\obj\CpuUsageRate.dbo \
+        -X182 Source\vicp\BSW\MCUPlatform\Core\OSAPI\CpuUsageRate.c >> C:\Users\uidq0888\AppData\Local\Temp\gh_00006dk1.si

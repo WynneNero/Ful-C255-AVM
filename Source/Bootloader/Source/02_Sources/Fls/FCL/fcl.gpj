@@ -1,0 +1,16 @@
+#!gbuild
+[Subproject]
+Fls.c
+lib\r_typedefs.h
+lib\r_fcl_user_if.c
+lib\r_fcl_hw_access_asm.850
+lib\r_fcl_hw_access.c
+lib\r_fcl_global.h
+lib\r_fcl_env.h
+fcl_cfg.h
+r_fcl_types.h
+r_fcl.h
+fcl_user.h
+fcl_user.c
+fcl_descriptor.h
+fcl_descriptor.c

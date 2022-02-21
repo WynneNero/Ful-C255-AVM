@@ -1,0 +1,17 @@
+#!gbuild
+[Subproject]
+eelapp.h
+fdl_cfg.h
+fdl_descriptor.c
+fdl_descriptor.h
+fdl_user.c
+fdl_user.h
+FLS_Drv.h
+FLS_Dvr.c
+r_fdl.h
+r_fdl_env.h
+r_fdl_global.h
+r_fdl_hw_access.c
+r_fdl_mem_map.h
+r_fdl_types.h
+r_fdl_user_if.c

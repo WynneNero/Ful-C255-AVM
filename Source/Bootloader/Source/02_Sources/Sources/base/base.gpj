@@ -1,0 +1,13 @@
+#!gbuild
+[Subproject]
+bl_security.c
+bl_rte.c
+bl_process_driver.c
+bl_memory.c
+bl_main.c
+bl_logical_block.c
+bl_flash_if.c
+bl_data.c
+bl_common.c
+bl_booting.c
+bl_adapter.c

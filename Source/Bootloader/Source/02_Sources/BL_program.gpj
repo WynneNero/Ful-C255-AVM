@@ -1,0 +1,22 @@
+#!gbuild
+[Program]
+	-object_dir=objs\BL_program
+	{optgroup=GCoresOptions} --no_additional_output
+	-G
+	{optgroup=GhsCommonOptions} -o .\obj\vicp.elf
+Soc\flash_driver.c
+Soc\SocUpgrade.c
+Soc\SocMsgHandler.c
+Soc\SocDriver.c
+Soc\Socdata.c
+Soc\IRQ.c
+Soc\GPIO.c
+Soc\FIFO.c
+Soc\CSI_Cfg.c
+Soc\CSI.c
+06_CplxDrv\CplxDrv.gpj
+cfg\cfg.gpj
+inc\inc.gpj
+Mcu\mcu.gpj
+Sources\Sources.gpj
+dr7f701023.ld

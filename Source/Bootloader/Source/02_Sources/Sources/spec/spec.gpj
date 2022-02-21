@@ -1,0 +1,10 @@
+#!gbuild
+[Subproject]
+bl_proc_passive_schedule.c
+bl_dcm.c
+bl_crc32_bzip2.c
+bl_can_tp.c
+bl_can_if.c
+bl_app.c
+bl_adpt_uds_platform.c
+bl_access_udsdemo.c

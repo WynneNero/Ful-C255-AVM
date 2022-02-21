@@ -1,0 +1,14 @@
+#!gbuild
+[Subproject]
+bl_security_cfg.c
+bl_rte_cfg.c
+bl_process_driver_cfg.c
+bl_memory_cfg.c
+bl_logical_block_cfg.c
+bl_flash_if_cfg.c
+bl_dcm_cfg.c
+bl_data_cfg.c
+bl_can_tp_cfg.c
+bl_can_if_cfg.c
+bl_booting_cfg.c
+bl_adapter_cfg.c

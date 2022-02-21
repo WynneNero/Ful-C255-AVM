@@ -1,0 +1,7 @@
+#!gbuild
+[Subproject]
+Dataflash\r_fdl_user_if.c
+Dataflash\r_fdl_hw_access.c
+Dataflash\FLS_Dvr.c
+Dataflash\fdl_user.c
+Dataflash\fdl_descriptor.c

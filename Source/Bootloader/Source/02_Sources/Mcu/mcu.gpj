@@ -1,0 +1,8 @@
+#!gbuild
+[Subproject]
+io_macros_v2.h
+icu_feret.h
+dr7f701023_startup.850
+dr7f701023_irq.h
+dr7f701023_0.h
+cpu.h

@@ -1,0 +1,23 @@
+#!gbuild
+primaryTarget=v800_standalone.tgt
+#component top_level_project
+[Project]
+	-G
+	-object_dir=objs
+	:sourceDir=.
+	--ee
+	-I.\..\..\02_Sources\inc
+	-I.\..\..\02_Sources\cfg
+	-I.\..\..\02_Sources\Mcu
+	-I.\..\..\02_Sources\Fls\FCL
+	-bsp generic
+	-cpu=rh850g3k
+	-I.\..\..\02_Sources\06_CplxDrv\S_SPI
+	-I.\..\..\02_Sources\06_CplxDrv\SBC
+	-I.\..\..\02_Sources\07_DET
+	-I.\..\..\02_Sources\06_CplxDrv
+	-I.\..\..\02_Sources\06_CplxDrv\Dataflash
+	-I.\..\..\02_Sources\Soc
+	-memory
+tgt\resources.gpj		[Project]
+.\..\..\02_Sources\BL_program.gpj		[Program]

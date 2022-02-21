@@ -1,0 +1,656 @@
+ <Root>
+  <REG_HEADER>
+   <Title>BF283F24-70B9-4f97-86E6-0AD5BAAE9E01</Title>
+   <VersionHigh>0</VersionHigh>
+   <VersionLow>1</VersionLow>
+  </REG_HEADER>
+  <REG_ROOT>
+   <RegVer>1259339776</RegVer>
+   <Project>
+    <CompilerType>0</CompilerType>
+    <GlobalOptions>
+     <AHeaderExtension>INC</AHeaderExtension>
+     <AInpExtensions>ASM;s;850</AInpExtensions>
+     <AOutExtensions>o</AOutExtensions>
+     <AsmAdditionalOutExt></AsmAdditionalOutExt>
+     <AssemblerRelPath>$(CMPDIR)ccv850.exe</AssemblerRelPath>
+     <BeepWhenDone>1</BeepWhenDone>
+     <CaptureTranslatorsOutputAsm>1</CaptureTranslatorsOutputAsm>
+     <CaptureTranslatorsOutputCmp>1</CaptureTranslatorsOutputCmp>
+     <CaptureTranslatorsOutputLnk>1</CaptureTranslatorsOutputLnk>
+     <ChangeWorkingDirectory>1</ChangeWorkingDirectory>
+     <CInpExtensions>C;CPP</CInpExtensions>
+     <CmpAdditionalOutExt></CmpAdditionalOutExt>
+     <CompCmdLineIncPrefix>-I</CompCmdLineIncPrefix>
+     <CompCmdLinePostfix></CompCmdLinePostfix>
+     <CompCmdLinePrefix></CompCmdLinePrefix>
+     <CompilerDirectory>C:\ghs\comp_201355\</CompilerDirectory>
+     <CompilerRelPath>$(CMPDIR)ccv850.exe</CompilerRelPath>
+     <CopyOutputFilesToTargetDir>1</CopyOutputFilesToTargetDir>
+     <COutExtensions>o</COutExtensions>
+     <DeleteTemporalyFiles>0</DeleteTemporalyFiles>
+     <DF_AllowBlanks>False</DF_AllowBlanks>
+     <DF_CheckSourceFileFolder>True</DF_CheckSourceFileFolder>
+     <DF_End></DF_End>
+     <DF_Keyword>#include</DF_Keyword>
+     <DF_ReqBlanks>False</DF_ReqBlanks>
+     <DF_Start></DF_Start>
+     <DF_Valid>True</DF_Valid>
+     <DisplayParameters>0</DisplayParameters>
+     <ExecutableFileName>vicp.elf</ExecutableFileName>
+     <ExternalMake>0</ExternalMake>
+     <ExternalMakeFile></ExternalMakeFile>
+     <ExternalMakeFileParameters></ExternalMakeFileParameters>
+     <HeaderExtension>H</HeaderExtension>
+     <LinkerRelPath>$(CMPDIR)ccv850.exe</LinkerRelPath>
+     <LInpExtensions>OBJ;LIB</LInpExtensions>
+     <LnkAdditionalOutExt></LnkAdditionalOutExt>
+     <NewInvoke>0</NewInvoke>
+     <PathSeparator>\</PathSeparator>
+     <RootDir></RootDir>
+     <RunAfterAsm></RunAfterAsm>
+     <RunAfterAsmParam></RunAfterAsmParam>
+     <RunAfterComp></RunAfterComp>
+     <RunAfterCompParam></RunAfterCompParam>
+     <RunAfterLinker>$(IRFDIR)Tools\GenS19.bat</RunAfterLinker>
+     <RunAfterLinkerParam></RunAfterLinkerParam>
+     <RunBeforeBuild></RunBeforeBuild>
+     <RunBeforeBuildParam></RunBeforeBuildParam>
+     <RunBeforeMake></RunBeforeMake>
+     <RunBeforeMakeParam></RunBeforeMakeParam>
+     <RunCommandInterpreterAsm>1</RunCommandInterpreterAsm>
+     <RunCommandInterpreterCmp>1</RunCommandInterpreterCmp>
+     <RunCommandInterpreterLnk>1</RunCommandInterpreterLnk>
+     <RunWithRelativePath>0</RunWithRelativePath>
+     <ShowToolWindow>0</ShowToolWindow>
+     <WarnIncludes>1</WarnIncludes>
+     <Env.0>
+      <__></__>
+     </Env.0>
+     <IncludePath.0>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.0>
+     <IncludePath.1>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Service\lib</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.1>
+     <IncludePath.10>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Inc</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.10>
+     <IncludePath.11>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.11>
+     <IncludePath.12>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\McuBoard</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.12>
+     <IncludePath.13>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.13>
+     <IncludePath.14>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.14>
+     <IncludePath.15>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\_Common</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.15>
+     <IncludePath.16>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAPI</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.16>
+     <IncludePath.17>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\Inc</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.17>
+     <IncludePath.18>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.18>
+     <IncludePath.19>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\os generated</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.19>
+     <IncludePath.2>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Service\Inc</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.2>
+     <IncludePath.20>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\Inc</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.20>
+     <IncludePath.21>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Service\Inc</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.21>
+     <IncludePath.22>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemService_Cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.22>
+     <IncludePath.23>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.23>
+     <IncludePath.24>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\Inc</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.24>
+     <IncludePath.25>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Inc</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.25>
+     <IncludePath.26>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Core_cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.26>
+     <IncludePath.27>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Core\Inc</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.27>
+     <IncludePath.28>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.28>
+     <IncludePath.29>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemCore</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.29>
+     <IncludePath.3>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemService_Cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.3>
+     <IncludePath.30>
+      <Path>$(IRFDIR)Source</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.30>
+     <IncludePath.31>
+      <Path>$(IRFDIR)..\..\device\GHS</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.31>
+     <IncludePath.32>
+      <Path>$(IRFDIR)..\..\source</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.32>
+     <IncludePath.33>
+      <Path>$(IRFDIR)..\..\device</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.33>
+     <IncludePath.4>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.4>
+     <IncludePath.5>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\EEP_Cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.5>
+     <IncludePath.6>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Core_cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.6>
+     <IncludePath.7>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.7>
+     <IncludePath.8>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\EEP_Cfg</Path>
+      <SubDir>0</SubDir>
+     </IncludePath.8>
+     <IncludePath.9>
+      <Path>$(IRFDIR)Source\BSW\MCUPlatform\Service\Hook</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.9>
+     <mbBuild>
+      <Mode>0</Mode>
+      <Options></Options>
+      <Path></Path>
+     </mbBuild>
+     <mbMake>
+      <Mode>0</Mode>
+      <Options></Options>
+      <Path></Path>
+     </mbMake>
+    </GlobalOptions>
+    <Project.0>
+     <DefaultTargetName>VICP</DefaultTargetName>
+     <FilterName>Green Hills</FilterName>
+     <ProjectName></ProjectName>
+     <AdvancedLinkerOptions>
+      <AsmCustomFilterName></AsmCustomFilterName>
+      <AsmUseDefaultName>True</AsmUseDefaultName>
+      <CaptureErrOutOnly>False</CaptureErrOutOnly>
+      <CmpCustomFilterName></CmpCustomFilterName>
+      <CmpUseDefaultName>True</CmpUseDefaultName>
+      <ExternalFilterPath></ExternalFilterPath>
+      <LinkCustomFilterName></LinkCustomFilterName>
+      <LinkUseDefaultName>True</LinkUseDefaultName>
+      <UseExternalFilter>False</UseExternalFilter>
+     </AdvancedLinkerOptions>
+     <Target.0>
+      <TargetName>VICP</TargetName>
+      <FileOptios>
+       <AssemblerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</AssemblerOptions>
+       <AssemblerOptionsWR>True</AssemblerOptionsWR>
+       <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+       <CompilerOptionsWR>True</CompilerOptionsWR>
+      </FileOptios>
+      <LinkGroup.0>
+       <LinkGroupName>source</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source\uart.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.0>
+       <File.1>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source\adc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.1>
+       <File.10>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\CSI_Cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.10>
+       <File.11>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\IIC_CFG.C</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.11>
+       <File.12>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\IRQ_cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.12>
+       <File.13>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\McuInit.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.13>
+       <File.14>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\Stbc_cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.14>
+       <File.15>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Core_cfg\Core_Cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.15>
+       <File.16>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\EEP_Cfg\EEPTable_Cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.16>
+       <File.17>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\EEP_Cfg\EEPData.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.17>
+       <File.18>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg\SINI_cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.18>
+       <File.19>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg\CyclicTask_Cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.19>
+       <File.2>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source\CSI.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.2>
+       <File.20>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg\EventMng_Cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.20>
+       <File.21>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemCore_Cfg\JobMng_Cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.21>
+       <File.22>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemService_Cfg\SystemState_Cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.22>
+       <File.23>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\SystemService_Cfg\SystemMode_Cfg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.23>
+       <File.24>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\clocks.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.24>
+       <File.25>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\Hook\Service_hooks.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.25>
+       <File.26>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemCore\SysSwitch.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.26>
+       <File.27>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemCore\CyclicMng.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.27>
+       <File.28>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemCore\EventMng.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.28>
+       <File.29>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemCore\JobMng.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.29>
+       <File.3>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source\GPIO.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.3>
+       <File.30>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemCore\SINI.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.30>
+       <File.31>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemService\SystemState.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.31>
+       <File.32>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemService\EEPJob.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.32>
+       <File.33>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemService\EEPJobManager.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.33>
+       <File.34>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemService\EEPTable.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.34>
+       <File.35>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemService\SystemMode.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.35>
+       <File.36>
+        <FileName>$(IRFDIR)Source\BSW\TestSub\SWP_TestCase1.C</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.36>
+       <File.37>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\task_stub.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.37>
+       <File.38>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Timinghook.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.38>
+       <File.39>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\os generated\tcb.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.39>
+       <File.4>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source\IIC.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.4>
+       <File.40>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\os generated\intvect_c0.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.40>
+       <File.41>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\os generated\osConfigBlock.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.41>
+       <File.42>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\os generated\osStacks.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.42>
+       <File.43>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osektime.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.43>
+       <File.44>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osek.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.44>
+       <File.45>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osekasm.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.45>
+       <File.46>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osekerr.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.46>
+       <File.47>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osekevnt.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.47>
+       <File.48>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\oseksched.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.48>
+       <File.49>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osekstart.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.49>
+       <File.5>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source\IRQ.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.5>
+       <File.50>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\RTOS\MicroSAR\Os\osektask.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.50>
+       <File.51>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\OSTimer.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.51>
+       <File.52>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\app_hooks.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.52>
+       <File.53>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAdapter\OSAdapter.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.53>
+       <File.54>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\Lib\Tools.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.54>
+       <File.55>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\Lib\Container.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.55>
+       <File.56>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAPI\OSAPI.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.56>
+       <File.57>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAPI\os_alarm.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.57>
+       <File.58>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Service\SystemService\BusMng.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.58>
+       <File.59>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\OSAPI\os_wdg.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.59>
+       <File.6>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source\Ostm.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.6>
+       <File.7>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Basicdriver\Source\stbc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.7>
+       <File.8>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\Core\McuBoard\Startup.c</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.8>
+       <File.9>
+        <FileName>$(IRFDIR)Source\BSW\MCUPlatform\McuPlatform_cfg\Basicdriver_cfg\UART_CFG.C</FileName>
+        <FileOptios>
+         <CompilerOptions>$(EDNAME) -c -fsoft -cpu=rh850 -inline_prologue -noobj -dual_debug -G -full_debug_info -Omaxdebug -prepare_dispose -no_callt --unknown_pragma_warnings -list -passsource $(INCLUDES) -object_dir=$(OUTPUTDIR) -D__TOOL_GHS__</CompilerOptions>
+        </FileOptios>
+       </File.9>
+      </LinkGroup.0>
+      <LinkGroup.1>
+       <LinkGroupName>device</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)DeviceFile\dr7f701023.ld</FileName>
+       </File.0>
+       <File.1>
+        <FileName>$(IRFDIR)DeviceFile\dr7f701023.dvf</FileName>
+       </File.1>
+      </LinkGroup.1>
+      <LinkGroup.2>
+       <LinkGroupName>debug</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)OUT\vicp.map</FileName>
+       </File.0>
+      </LinkGroup.2>
+      <TargetOptios>
+       <AsmArgFile></AsmArgFile>
+       <BuildOptions></BuildOptions>
+       <CompArgFile></CompArgFile>
+       <CRLF>False</CRLF>
+       <ExternalMakeFileParameters></ExternalMakeFileParameters>
+       <IndFileLocation>0</IndFileLocation>
+       <IndirectionFile>$(IRFDIR)vicp.ind</IndirectionFile>
+       <LinkerOptions>-e __start -fsoft -cpu=rh850 -g -v @$(INDPATH) -map=&quot;$(OUTPUTNOEXT).map&quot; -o &quot;$(OUTPUTPATH)&quot;  devicefile\dr7f701023.ld</LinkerOptions>
+       <MakeOptions></MakeOptions>
+       <RunAfterLinkParam></RunAfterLinkParam>
+       <SkipObjectCheck>False</SkipObjectCheck>
+       <TargetDirectory>obj</TargetDirectory>
+       <TargetDirectory2></TargetDirectory2>
+       <TranslateCharacter>38</TranslateCharacter>
+       <UseTargetDirectory2>No</UseTargetDirectory2>
+      </TargetOptios>
+     </Target.0>
+     <TargetOptions>
+      <AsmArgFile></AsmArgFile>
+      <BuildOptions></BuildOptions>
+      <CompArgFile></CompArgFile>
+      <CRLF>False</CRLF>
+      <ExternalMakeFileParameters></ExternalMakeFileParameters>
+      <IndFileLocation>0</IndFileLocation>
+      <IndirectionFile></IndirectionFile>
+      <LinkerOptions></LinkerOptions>
+      <MakeOptions></MakeOptions>
+      <RunAfterLinkParam></RunAfterLinkParam>
+      <SkipObjectCheck>False</SkipObjectCheck>
+      <TargetDirectory></TargetDirectory>
+      <TargetDirectory2></TargetDirectory2>
+      <TranslateCharacter>38</TranslateCharacter>
+      <UseTargetDirectory2>No</UseTargetDirectory2>
+     </TargetOptions>
+    </Project.0>
+   </Project>
+  </REG_ROOT>
+ </Root>

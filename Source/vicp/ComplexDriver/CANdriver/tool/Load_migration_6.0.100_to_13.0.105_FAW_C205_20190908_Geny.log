@@ -1,0 +1,114 @@
+Encoding: iso-8859-1
+Detected dtd version 6.0.100
+VCANdelaPersistorImpl::GetFileVersion: DTD version '6.0.100' detected
+Loading 'D:\Work\Proj\C205\Git_Src\FAWHQ_C205_AVM_MCU\Source\vicp\ComplexDriver\CANdriver\tool\FAW_C205_20190908_Geny.cdd'...
+  dtd version: file 6.0.100, program 13.0.105
+Document supports the languages (en-US)
+Document contains the uptodate languages (en-US)
+Migration 6.5.2: Data type authorization of Document:
+ Following data types are allowed: Multiplexer, Counter iteration, End-marker iteration, End-of-service iteration, Fixed count iteration, Formula, Procedure, Piecwise Linear, Characteristic Curve, Packet
+ Following data types are not allowed: --
+Migration 6.5.2: allow data type nesting
+Template: Qualifier : Door, SaveNo : 2, Label : --DDM_VALIDATE_BEGIN00281d7c-1e88-46b6-8add-59d7d2106c31DDM_VALIDATE_END
+DTC status migration 8.0.1:
+ Setting DTC status mask...
+  take DTC status mask from the "status availability" proxy in positive response of 19 02 service.
+  Bevor merge:
+   [0] Test failed, Convention: optional, Default: unsupported
+   [1] Test failed this monitoring cycle, Convention: optional, Default: unsupported
+   [2] Pending DTC, Convention: optional, Default: unsupported
+   [3] Confirmed DTC, Convention: optional, Default: unsupported
+   [4] Test not completed since last clear, Convention: optional, Default: unsupported
+   [5] Test failed since last clear, Convention: optional, Default: unsupported
+   [6] Test not completed this monitoring cycle, Convention: optional, Default: unsupported
+   [7] Warning indicator requested, Convention: optional, Default: unsupported
+  Starting merge...
+  After merge: 
+   [0] Test failed, Convention: optional, Default: unsupported
+   [1] Test failed this monitoring cycle, Convention: optional, Default: unsupported
+   [2] Pending DTC, Convention: optional, Default: unsupported
+   [3] Confirmed DTC, Convention: optional, Default: unsupported
+   [4] Test not completed since last clear, Convention: optional, Default: unsupported
+   [5] Test failed since last clear, Convention: optional, Default: unsupported
+   [6] Test not completed this monitoring cycle, Convention: optional, Default: unsupported
+   [7] Warning indicator requested, Convention: optional, Default: unsupported
+end DTC status migration 8.0.1.
+  template data loaded
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'ControlDTCSettingOn' of diagnostic instance 'ControlDTCSetting'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'ControlDTCSettingOff' of diagnostic instance 'ControlDTCSetting'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'Write' of diagnostic instance 'FAW_Vehicle_Identification_Number'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'Write' of diagnostic instance 'Repair_Shop_Code_and_or_Tester_Serial_Number'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'Write' of diagnostic instance 'Programming_Date'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'Write' of diagnostic instance 'ECU_Installation_Date'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'Write' of diagnostic instance 'FAW_Reserved'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'Write' of diagnostic instance 'System_Configuration_1'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'Write' of diagnostic instance 'FAW_Reserved1'
+Remove telegram table 'ControlEnableMaskRecord' of diagnostic instance 'AVS_View_change_control' for which there is no service.
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'ReturnControl' of diagnostic instance 'AVS_View_change_control'
+Migration 6.5.2: Adding state group NRC '0x7e' to service 'Control' of diagnostic instance 'AVS_View_change_control'
+  variant 'CommonDiagnostics' loaded
+DIDs migration 8.5.1: start
+DIDs migration 8.5.1: end
+Migration 6.5.2: setting encoding for coded/physical value type of data type 'Memory_1_Byte_Size_Info' to 'unsigned'
+Migration 6.5.2: the attribute 'OptionalZeroTermination' has been deleted. It does not need in the current format
+Migration 6.5.2: the attribute 'IsLeadingLengthInfoTypeByteField' has been deleted. It does not need in the current format
+Migration 6.5.100: the attribute 'Is_STATIC_FIELD' has been deleted. It does not need in the current format
+DIDs migration 8.1.1: start
+DIDs migration 8.1.1: There are no Diagnostic instances with semantics 'DID Definition' in the previous format -> nothing to do.
+DTC status migration 8.0.1:
+ Store DTC status bits...
+  Store status bits 'qpath:/CommonDiagnostics/FaultMemory/DtcStatusMask/DtcStatusbyte'
+  Store status bits 'qpath:/CommonDiagnostics/FaultMemory/DtcStatusAvailabilityMask_1/DtcStatusbyte'
+  Store status bits 'qpath:/CommonDiagnostics/FaultMemory/StatusOfDtc_2/DtcStatusbyte'
+end DTC status migration 8.0.1.
+DTC status migration 8.0.1:
+ Satisfy constraints...
+  Satisfy constraints for telegram table 'qpath:/CommonDiagnostics/FaultMemory/DtcStatusMask'...
+  Satisfy constraints for telegram table 'qpath:/CommonDiagnostics/FaultMemory/DtcStatusAvailabilityMask_1'...
+  Satisfy constraints for telegram table 'qpath:/CommonDiagnostics/FaultMemory/StatusOfDtc_2'...
+end DTC status migration 8.0.1.
+DTC status migration 8.0.1:
+ store the qualifier of old data type in the attribute "OldDtcStatusBitDataTypeQualifier"...
+end DTC status migration 8.0.1.
+Migration 8.5.2100: The document contains BCD values. Normalized BCD values
+Migration 8.5.2100:  Converted BCD encoded VValues to their hexadecimal representastion.  For example: 16 dec (0x10) -> 0x16
+Check Identifier for uniqueness 9.0.101 migration: start
+Check Identifier for uniqueness 9.0.101 migration: checking diagnostic identifier..
+Check Identifier for uniqueness 9.0.101 migration: all diagnostic identifiers in this document are unique.
+Check Identifier for uniqueness 9.0.101 migration: attribute "Check Identifier for Uniqueness" will be not created.
+Check Identifier for uniqueness 9.0.101 migration: success
+AUTOSAR fault memory migration, Read snapshots: protocol service 1904 "($19) ReadDtcInformation - Report DTC snapshot record by DTC number" has unsupported format:
+AUTOSAR fault memory migration, Read snapshots:  Iterator is not present in response.
+AUTOSAR fault memory migration, Read snapshots: cannot migrate Read Snapshot Data services to AUTOSAR fault memory format.
+AUTOSAR fault memory migration, Read extended data records: migrating diagnostic instance "qpath:/CommonDiagnostics/FaultMemory"...
+AUTOSAR fault memory migration, Read extended data records: Extended Data Records:
+AUTOSAR fault memory migration, Read extended data records:  0x01 ExtendedDataRecord 01
+AUTOSAR fault memory migration, Read extended data records:  0x02 ExtendedDataRecord 02
+AUTOSAR fault memory migration, Read extended data records:  0x04 ExtendedDataRecord 03
+AUTOSAR fault memory migration, Read extended data records: set "Is Stored For Extended Data Records"
+AUTOSAR fault memory migration, Read extended data records: ...Success
+AUTOSAR fault memory migration, Read extended data records: migrating protocol service 1906 "($19) ReadDtcInformation - Report DTC extended data record by DTC number"...
+AUTOSAR fault memory migration, Read extended data records: ...Success
+AUTOSAR fault memory migration, Read extended data records: migrating protocol service 1910 "($19) ReadDtcInformation - Report mirror memory DTC extended data record by DTC number"...
+AUTOSAR fault memory migration, Read extended data records: ...Success
+Done loading.
+  Logging turned on again
+Checking consistency of document. This may take a while, please be patient...
+Warning: Qualifier detected in 'qpath://[ECUDEFATTR]Diagnostic_DoIP_ISO13400_2012.CP_DoIPSecondaryLogicalEcuResponseAddress' is too long.
+Warning:  The maximal allowed qualifier length is 64 characters. See Qualifier generation options dialog.
+Warning: Qualifier detected in 'qpath://[PROTOCOLSERVICE]_07_RequestEmissionRelatedDTCsDetectedDuringCurrentOrLastCompletedCycle' is too long.
+Warning:  The maximal allowed qualifier length is 64 characters. See Qualifier generation options dialog.
+Warning: Qualifier detected in 'qpath://[PROTOCOLSERVICE]_08_RequestControlOfOnBoardSystemTestOrComponent_ReadSupportedTIDs' is too long.
+Warning:  The maximal allowed qualifier length is 64 characters. See Qualifier generation options dialog.
+Warning: Entry '[0x04]' of data type 'ExtendedDataRecordNumber' intersects with an invalid value range.
+  At least one TextID is missing.
+ComParamMan: Unidentified ComParam UudtCanIdType
+ComParamMan: Unidentified ComParam TesterPresentPhys
+ComParamMan: Unidentified ComParam TesterPresentFunc
+ComParamMan: Unidentified ComParam RC21Handling
+ComParamMan: Unidentified ComParam RC21RequestTime
+ComParamMan: Unidentified ComParam RC21CompletionTimeout
+ComParamMan: Unidentified ComParam RC78Handling
+ComParamMan: Unidentified ComParam RC78CompletionTimeout
+Checking service prefixes in base variant 'CommonDiagnostics' ... OK
+Document is consistent.

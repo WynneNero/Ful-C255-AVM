@@ -1,0 +1,5 @@
+1、此目录中存放的是IAR或Softune或CodeWarrior的工程配置文件，也包含编译出来的hex文件，但只保留发布给alpha测试的hex文件，比如：J53R_ATC_B1.0_0x1234.hex、J53R_ATC_B1.2_0x2345.hex、J53R_ATC_B1.3_0x3456.hex
+
+2、IAR或Softune或CodeWarrior的工程配置文件中必须使用相对路径
+
+3、Application的hex文件和FBL的hex文件合并之后的hex文件存放于Application\Configuration\IDE目录中；

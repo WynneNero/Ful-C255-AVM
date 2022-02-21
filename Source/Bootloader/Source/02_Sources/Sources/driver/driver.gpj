@@ -1,0 +1,9 @@
+#!gbuild
+[Subproject]
+bl_watchdog.c
+bl_timer.c
+bl_system.c
+bl_ram.c
+bl_flash_read.c
+bl_can_transceiver.c
+bl_can.c

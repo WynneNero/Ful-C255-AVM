@@ -1,0 +1,6 @@
+#!gbuild
+[Subproject]
+base\base.gpj
+cfg\cfg.gpj
+driver\driver.gpj
+spec\spec.gpj

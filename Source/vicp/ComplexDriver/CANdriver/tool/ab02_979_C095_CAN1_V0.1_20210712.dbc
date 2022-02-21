@@ -1,0 +1,910 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: DMS PDC ATC PDCU PLG EMS HU ESP DCU GW BCM TCU ABS SAS AVS
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ APS_Slot6CenterPoint_Y1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot6CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot6_Width : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot6_LineAngle : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot6_Length : 0|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FogLightSt_FR : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FogLightSt_FL : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PDC_SpeechControlFeedback : 0|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MinObjectRange : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RadarSysSt_Side : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 454 PDC_9: 8 PDC
+ SG_ TimeStamp_FLS_FRS : 32|16@1+ (1,0) [0|0] ""  AVS
+ SG_ ParkingSlotDepth_Left : 48|10@1+ (1,0) [0|0] ""  AVS
+ SG_ DistanceValue_FRS : 22|10@1+ (1,0) [0|0] ""  AVS
+ SG_ DistanceValue_FLS : 8|10@1+ (1,0) [0|0] ""  AVS
+ SG_ LiveCounter_PDC_9 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ Checksum_PDC_9 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 449 PDC_4: 8 PDC
+ SG_ RearObjCoordinateX : 44|12@1+ (2,-4000) [-4000|4000] ""  AVS
+ SG_ RearObjCoordinateY : 32|12@1+ (2,-4000) [-4000|4000] ""  AVS
+ SG_ FrontObjCoordinateX : 20|12@1+ (2,-4000) [-4000|4000] ""  AVS
+ SG_ FrontObjCoordinateY : 8|12@1+ (2,-4000) [-4000|4000] ""  AVS
+ SG_ LiveCounter_PDC_4 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ Checksum_PDC_4 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 455 PDC_10: 8 PDC
+ SG_ ParkingSlotDepth_Right : 48|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TimeStamp_RLS_RRS : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DistanceValue_RRS : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DistanceValue_RLS : 8|10@1+ (1,0) [0|0] ""  AVS
+ SG_ LiveCounter_PDC_10 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ Checksum_PDC_10 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 448 PDC_3: 8 PDC
+ SG_ BCoordinateX_Left : 44|12@1+ (1,0) [0|0] ""  AVS
+ SG_ BCoordinateY_Left : 32|10@1+ (1,0) [0|0] ""  AVS
+ SG_ ACoordinateX_Left : 20|12@1+ (1,0) [0|0] ""  AVS
+ SG_ ACoordinateY_Left : 8|10@1+ (1,0) [0|0] ""  AVS
+ SG_ LiveCounter_PDC_3 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ Checksum_PDC_3 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 605 PDC_2: 8 PDC
+ SG_ SensorBlockageSt_FL : 15|1@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorBlockageSt_FML : 14|1@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorBlockageSt_FMR : 13|1@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorBlockageSt_FR : 12|1@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorBlockageSt_RL : 11|1@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorBlockageSt_RML : 10|1@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorBlockageSt_RMR : 9|1@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorBlockageSt_RR : 8|1@1+ (1,0) [0|0] ""  AVS
+
+BO_ 616 LCDA_1: 8 GW
+ SG_ WarningCmd_RCTA_Right : 20|2@1+ (1,0) [0|0] ""  AVS
+ SG_ WarningCmd_RCTA_left : 16|2@1+ (1,0) [0|0] ""  AVS
+
+BO_ 672 TBOX_1: 8 GW
+ SG_ RemoteAVSViewModeReq : 56|4@1+ (1,0) [0|0] ""  AVS
+ SG_ RemoteAVSSharpnessReq : 53|2@1+ (1,0) [0|0] ""  AVS
+ SG_ RemoteMonitoringReq : 48|2@1+ (1,0) [0|0] ""  AVS
+ SG_ LiveCounter_TBOX_1 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ Checksum_TBOX_1 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 591 RRDCU_1: 8 Vector__XXX
+ SG_ DoorSt_RR : 2|1@1+ (1,0) [0|0] ""  AVS
+
+BO_ 590 RLDCU_1: 8 DCU
+ SG_ DoorSt_RL : 2|1@1+ (1,0) [0|0] ""  AVS
+
+BO_ 420 MCP_1: 8 GW
+ SG_ MCP_AVSandFRadarSwitch : 25|1@1- (1,0) [0|0] ""  PDC,AVS
+
+BO_ 650 HU_6: 8 HU
+ SG_ ParkOutDirection : 56|4@1+ (1,0) [0|0] ""  AVS
+ SG_ TargetSelection_ConfirmReq : 50|1@1+ (1,0) [0|0] ""  AVS
+ SG_ TargetSelection_LineAngle : 40|10@1+ (1,0) [0|0] ""  AVS
+ SG_ TargetSelection_ParkDirection : 38|2@1+ (1,0) [0|0] ""  AVS
+ SG_ TargetSelection_ParkType : 35|3@1+ (1,0) [0|0] ""  AVS
+ SG_ TargetSelectionCenter_Angle : 24|10@1+ (1,0) [0|0] ""  AVS
+ SG_ TargetSelection_Area : 11|1@1+ (1,0) [0|0] ""  AVS
+ SG_ TargetSelectionCenter_Y : 12|11@1+ (1,-1000) [-1000|1000] ""  AVS
+ SG_ TargetSelectionCenter_X : 0|11@1+ (1,-1000) [-1000|1000] ""  AVS
+
+BO_ 897 HU_20: 8 HU
+ SG_ ScreenPressType2 : 35|2@1+ (1,0) [0|0] ""  AVS
+ SG_ ScreenPressType1 : 11|2@1+ (1,0) [0|0] ""  AVS
+ SG_ ScreenPressPosition_Y2 : 37|11@1+ (1,0) [0|720] ""  AVS
+ SG_ ScreenPressPosition_X2 : 24|11@1+ (1,0) [0|1280] ""  AVS
+ SG_ ScreenPressPosition_Y1 : 13|11@1+ (1,0) [0|720] ""  AVS
+ SG_ ScreenPressPosition_X1 : 0|11@1+ (1,0) [0|1280] ""  AVS
+
+BO_ 643 HU_18: 8 HU
+ SG_ LiveCounter_HU_18 : 60|4@1- (1,0) [0|0] ""  AVS
+ SG_ HU_BlindSpotFilledFunctionReq : 8|2@1+ (1,0) [0|0] ""  AVS
+ SG_ Checksum_HU_18 : 0|8@1+ (1,0) [0|0] ""  AVS
+
+BO_ 657 HU_14: 8 HU
+ SG_ DisplayTheme : 24|3@1+ (1,0) [0|0] ""  AVS
+
+BO_ 688 GW_Config: 8 GW
+ SG_ GW_OTAMode : 16|3@1+ (1,0) [0|0] ""  AVS
+ SG_ GW_RemoteVehicleMode : 12|1@1+ (1,0) [0|0] ""  AVS
+
+BO_ 534 DMS_2: 8 DMS
+ SG_ DMS_VehicleModeInfo : 8|4@1+ (1,0) [0|0] ""  AVS
+
+BO_ 571 BCM1_7: 8 BCM
+ SG_ Brightness_R : 16|10@1+ (6,0) [0|0] ""  AVS
+ SG_ Brightness_L : 8|8@1+ (400,0) [0|0] ""  AVS
+ SG_ RainIntensity : 0|4@1+ (10,0) [0|0] ""  AVS
+
+BO_ 564 BCM1_3: 8 BCM
+ SG_ EngineHoodSt : 12|1@1+ (1,0) [0|0] ""  AVS
+
+BO_ 397 APS_Slot8: 8 AVS
+ SG_ APS_Slot8CenterPoint_Y1 : 11|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot8CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot8_Width : 42|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot8_LineAngle : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot8_Length : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 396 APS_Slot7: 8 AVS
+ SG_ APS_Slot7CenterPoint_Y1 : 11|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot7CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot7_Width : 42|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot7_LineAngle : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot7_Length : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 395 APS_Slot6: 8 AVS
+ SG_ APS_Slot6CenterPoint_Y1 : 11|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot6CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot6_Width : 42|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot6_LineAngle : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot6_Length : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 394 APS_Slot5: 8 AVS
+ SG_ APS_Slot5CenterPoint_Y1 : 11|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot5CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot5_Width : 42|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot5_LineAngle : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot5_Length : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 393 APS_Slot4: 8 AVS
+ SG_ APS_Slot4CenterPoint_Y1 : 11|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot4CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot4_Width : 42|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot4_LineAngle : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot4_Length : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 392 APS_Slot3: 8 AVS
+ SG_ APS_Slot3CenterPoint_Y1 : 11|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot3CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot3_Width : 42|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot3_LineAngle : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot3_Length : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 391 APS_Slot2: 8 AVS
+ SG_ APS_Slot2CenterPoint_Y1 : 11|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot2CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot2_Width : 42|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot2_LineAngle : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot2_Length : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 390 APS_Slot1: 8 AVS
+ SG_ APS_Slot1CenterPoint_Y1 : 11|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot1CenterPoint_X1 : 0|11@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot1_Width : 32|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot1_LineAngle : 22|10@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot1_Length : 42|10@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1422 AVS_NM: 8 AVS
+ SG_ Extension_information : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Stay_awake_reason : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Wakeup_reason : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 604 PDC_1: 8 PDC
+ SG_ SwitchScreenRequest_PDC : 54|2@1+ (1,0) [0|0] ""  AVS
+ SG_ PDCAutoOnFunctionInd : 53|1@1+ (1,0) [0|0] ""  AVS
+ SG_ RadarSysSt_RearSide : 12|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ RadarSysSt_FrontSide : 11|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ SensorErrorSt_FL : 47|1@1+ (1,0) [0|0] ""  AVS
+ SG_ ObjectRange_FL : 44|3@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorErrorSt_FML : 43|1@1+ (1,0) [0|0] ""  AVS
+ SG_ ObjectRange_FML : 40|3@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorErrorSt_FMR : 39|1@1+ (1,0) [0|0] ""  AVS
+ SG_ ObjectRange_FMR : 36|3@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorErrorSt_FR : 35|1@1+ (1,0) [0|0] ""  AVS
+ SG_ ObjectRange_FR : 32|3@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorErrorSt_RL : 31|1@1+ (1,0) [0|0] ""  AVS
+ SG_ ObjectRange_RL : 28|3@1+ (1,0) [0|7] ""  AVS
+ SG_ SensorErrorSt_RML : 27|1@1+ (1,0) [0|0] ""  AVS
+ SG_ ObjectRange_RML : 24|3@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorErrorSt_RMR : 23|1@1+ (1,0) [0|1] ""  AVS
+ SG_ BuzeerCmd_PDC : 5|3@1+ (1,0) [0|0] ""  AVS
+ SG_ ObjectRange_RMR : 20|3@1+ (1,0) [0|0] ""  AVS
+ SG_ SensorErrorSt_RR : 19|1@1+ (1,0) [0|0] ""  AVS
+ SG_ ObjectRange_RR : 16|3@1+ (1,0) [0|0] ""  AVS
+ SG_ RadarSysSt_Rear : 3|1@1+ (1,0) [0|0] ""  AVS
+ SG_ RadarSysSt_Front : 2|1@1+ (1,0) [0|0] ""  AVS
+ SG_ ErrorSt_PDC : 1|1@1+ (1,0) [0|0] ""  AVS
+ SG_ SysSt_PDC : 0|1@1+ (1,0) [0|0] ""  AVS
+
+BO_ 546 ATC_2: 8 ATC
+ SG_ AmbientTemp : 24|8@1- (0.5,-40) [-40|86.5] ""  AVS,PDC
+
+BO_ 678 GPS_1: 8 GW
+ SG_ GPSTime_Day : 40|7@1+ (1,0) [0|30] "" Vector__XXX
+ SG_ GPSTime_Month : 32|4@1+ (1,0) [0|11] "" Vector__XXX
+ SG_ GPSTime_Year : 24|7@1+ (1,0) [0|125] "" Vector__XXX
+ SG_ GPSTime_Second : 16|6@1+ (1,0) [0|59] "" Vector__XXX
+ SG_ GPSTime_Minute : 8|6@1+ (1,0) [0|59] "" Vector__XXX
+ SG_ GPSTime_Hour : 0|5@1+ (1,0) [0|23] "" Vector__XXX
+
+BO_ 588 PDCU_1: 8 PDCU
+ SG_ MirrorFoldSt_FR : 34|2@1+ (1,0) [0|0] ""  AVS
+ SG_ DoorSt_FR : 2|1@1+ (1,0) [0|1] ""  AVS
+
+BO_ 578 PLG_1: 8 PLG
+ SG_ LuggageDoorSt : 0|1@1+ (1,0) [0|0] ""  AVS
+
+BO_ 148 EMS_3: 8 EMS
+ SG_ BakePedalSt : 35|2@1+ (1,0) [0|0] ""  AVS
+ SG_ LiveCounter_EMS_3 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ Checksum_EMS_3 : 0|8@1+ (1,0) [0|255] ""  AVS
+
+BO_ 652 HU_Speech_1: 8 HU
+ SG_ LiveCounter_HU_Speech_1 : 60|4@1+ (1,0) [0|15] ""  PDC,AVS
+ SG_ HU_SpeedReq_AVS : 14|2@1+ (1,0) [0|0] ""  PDC,AVS
+ SG_ Checksum_HU_Speech_1 : 0|8@1+ (1,0) [0|255] ""  PDC,AVS
+
+BO_ 648 HU_5: 8 HU
+ SG_ HU_RemoteMonitoringSt : 53|1@1- (1,0) [0|0] ""  AVS
+ SG_ HU_AVM_RemoteMonitoringIFrameReq : 52|1@1+ (1,0) [0|0] ""  AVS
+ SG_ HU_AVM_RemoteMonitorSharpnessSet : 50|2@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSViewtypeReq : 48|2@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSMonitoringVideoModeReq : 15|1@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSFunctionReq : 8|2@1+ (1,0) [0|0] ""  AVS
+ SG_ LiveCounter_HU_5 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ SwitchScreenResponseAVS : 24|2@1+ (1,0) [0|0] ""  AVS
+ SG_ LanguageSet : 20|4@1+ (1,0) [0|0] ""  AVS
+ SG_ MODReq : 18|2@1+ (1,0) [0|0] ""  AVS
+ SG_ DynamicPGSReq : 16|2@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSFunctionExitReq : 14|1@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSViewModeReq : 10|4@1+ (1,0) [0|0] ""  AVS
+ SG_ Checksum_HU_5 : 0|8@1+ (1,0) [0|255] ""  AVS
+
+BO_ 308 ESP_3: 8 ESP
+ SG_ LiveCounter_ESP_3 : 60|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ErrorSt_YRS : 59|1@1+ (1,0) [0|0] ""  AVS
+ SG_ Acceleration_Y : 48|11@1- (0.027127,-21.593) [-21.593|21.593184] ""  AVS
+ SG_ Acceleration_X : 21|11@1+ (0.027127,-21.593) [-21.593|21.593184] ""  AVS
+ SG_ YRSSt : 20|1@1+ (1,0) [0|15] ""  AVS
+ SG_ YawRate : 8|12@1- (0.05,-100) [-100|100] ""  AVS
+ SG_ Checksum_ESP_3 : 0|8@1+ (1,0) [0|255] ""  AVS
+
+BO_ 306 ESP_2: 8 ESP
+ SG_ LiveCounter_ESP_2 : 60|4@1+ (1,0) [0|15] ""  AVS,PDC
+ SG_ WorkingSt_EPB : 48|2@1+ (1,0) [0|0] ""  AVS,PDC
+ SG_ Checksum_ESP_2 : 0|8@1+ (1,0) [0|255] ""  AVS,PDC
+
+BO_ 421 DP_1: 8 GW
+ SG_ DP_AVSandPDCSwitch : 17|1@1- (1,0) [0|0] ""  PDC,AVS
+
+BO_ 586 DDCU_1: 8 DCU
+ SG_ DoorSt_FL : 2|1@1+ (1,0) [0|0] ""  AVS
+ SG_ MirrorFoldSt_FL : 34|2@1+ (1,0) [0|0] ""  AVS
+
+BO_ 560 BCM1_1: 8 BCM
+ SG_ AutoLightMode : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HazardWarningSt : 22|1@1+ (1,0) [0|15] ""  AVS,PDC
+ SG_ TurningSt_right : 17|1@1+ (1,0) [0|3] ""  AVS,PDC
+ SG_ TurningSt_Left : 16|1@1+ (1,0) [0|1] ""  AVS,PDC
+ SG_ HighBeamSt_FR : 11|1@1+ (1,0) [0|1] ""  AVS,PDC
+ SG_ HighBeamSt_FL : 10|1@1+ (1,0) [0|1] ""  AVS,PDC
+ SG_ LowBeamSt_FR : 8|1@1+ (1,0) [0|1] ""  AVS,PDC
+ SG_ LowBeamSt_FL : 7|1@1+ (1,0) [0|1] ""  AVS,PDC
+
+BO_ 304 ABS_3: 8 ABS
+ SG_ LiveCounter_ABS_3 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ WheelPulse_RR : 32|8@1+ (1,0) [0|253] ""  AVS
+ SG_ WheelPulse_RL : 24|8@1+ (1,0) [0|253] ""  AVS
+ SG_ WheelPulse_FR : 16|8@1+ (1,0) [0|253] ""  AVS
+ SG_ WheelPulse_FL : 8|8@1+ (1,0) [0|253] ""  AVS
+ SG_ Checksum_ABS_3 : 0|8@1+ (1,0) [0|255] ""  AVS
+
+BO_ 194 ABS_2: 8 ABS
+ SG_ WheelSpeed_RR : 24|15@1+ (0.01,0) [0|32765] ""  AVS
+ SG_ WheelSpeed_RL : 8|15@1+ (0.01,0) [0|32765] ""  AVS
+ SG_ LiveCounter_ABS_2 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ Checksum_ABS_2 : 0|8@1+ (1,0) [0|255] ""  AVS
+
+BO_ 388 APS_PSD: 8 AVS
+ SG_ APS_Slot3_info : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot3_DetecStatus : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot2_ParkDirection : 14|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot2_Park_Type : 12|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot2_info : 10|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot2_DetecStatus : 8|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot1_ParkDirection : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot1_Park_Type : 4|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot1_info : 2|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Slot1_DetecStatus : 0|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2015 Diag_Fun_Req: 8 GW
+ SG_ Diag_Fun_Req : 0|64@1+ (1,0) [0|0] ""  AVS,GW
+
+BO_ 1838 AVS_Phy_Resp: 8 AVS
+ SG_ AVS_Phy_Resp : 0|64@1+ (1,0) [0|0] ""  GW
+
+BO_ 1830 AVS_Phy_Req: 8 GW
+ SG_ AVS_Phy_Req : 0|64@1+ (1,0) [0|0] ""  AVS
+
+BO_ 656 IC_1: 8 GW
+ SG_ HandParkingBrakeSt : 49|2@1+ (1,0) [0|0] ""  AVS,PDC
+ SG_ OdometerValue : 24|25@1+ (0.1,0) [0|33554430] ""  PDC,AVS
+
+BO_ 562 BCM1_2: 8 BCM
+ SG_ PowerMode : 4|4@1- (1,0) [0|0] ""  AVS
+
+BO_ 180 TCU_3: 8 TCU
+ SG_ LiveCounter_TCU_3 : 60|4@1+ (1,0) [0|15] ""  PDC
+ SG_ Checksum_TCU_3 : 0|8@1+ (1,0) [0|255] ""  PDC
+ SG_ LeverInfo : 56|4@1+ (1,0) [0|15] ""  PDC,AVS
+
+BO_ 192 ABS_1: 8 ABS
+ SG_ LiveCounter_ABS_1 : 60|4@1+ (1,0) [0|15] ""  PDC,AVS
+ SG_ DrivingDirection : 56|2@1+ (1,0) [0|3] ""  PDC,AVS
+ SG_ VehicleSpeed : 40|15@1+ (0.01,0) [0|32765] ""  PDC,AVS
+ SG_ WheelSpeed_FR : 24|15@1+ (0.01,0) [0|32765] ""  PDC,AVS
+ SG_ WheelSpeed_FL : 8|15@1+ (0.01,0) [0|32765] ""  PDC,AVS
+ SG_ Checksum_ABS_1 : 0|8@1+ (1,0) [0|255] ""  PDC,AVS
+
+BO_ 208 SAS_1: 8 SAS
+ SG_ SAS_St : 56|2@1+ (1,0) [0|0] ""  AVS
+ SG_ LiveCounter_SAS_1 : 60|4@1+ (1,0) [0|15] ""  AVS
+ SG_ Checksum_SAS_1 : 0|8@1+ (1,0) [0|255] ""  AVS
+ SG_ SteeringWAngleSign : 23|1@1+ (1,0) [0|1] ""  AVS
+ SG_ SteeringWAngle : 8|15@1+ (0.04375,0) [0|32766] ""  AVS
+
+BO_ 600 AVS_1: 8 AVS
+ SG_ AVS_RemoteViewModeFeedback : 59|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RemoteMonitoringModeSt_AVS : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RemoteMonitoringSt_AVS : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RemoteMonitoringSharpnessSt_AVS : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVS_RemoteSharpnessFeedback : 51|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVS_RemoteMonitoringFeedback : 48|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVS_PDWarning_Rear : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVS_PDWarning_Front : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVS_CalibrationSt : 44|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVS_AbnormalTip : 41|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVSCameraBlockageSt_Right : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVSCameraBlockageSt_Left : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVSCameraBlockageSt_Rear : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVSCameraBlockageSt_Front : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FoundSlotBuzzerTip : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlindSpotFilledFunctionInd : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MODWarning_Rear : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MODWarning_Front : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MODSt_AVS : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AVSViewtype : 6|2@1+ (1,0) [0|0] ""  AVS
+ SG_ AVS_SpeechControlFeedback : 32|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SwitchScreenRequest_AVS : 24|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DybanicPGSSt_AVS : 16|1@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSCameraErrorSt_Right : 11|1@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSCameraErrorSt_Rear : 9|1@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSCameraErrorSt_Left : 10|1@1+ (1,0) [0|0] ""  AVS
+ SG_ LanguageTypeSt_AVS : 12|4@1+ (1,0) [0|7] ""  AVS
+ SG_ AVSCameraErrorSt_Front : 8|1@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSSt : 0|1@1+ (1,0) [0|0] ""  AVS
+ SG_ AVSViewMode : 2|4@1+ (1,0) [0|7] ""  AVS,GW
+ SG_ AVSErrorSt : 1|1@1+ (1,0) [0|1] ""  AVS,GW
+
+
+
+CM_ "
+
+";
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_ BO_  "GenSigTimeoutTime_DUT" INT 0 100000;
+BA_DEF_ BO_  "DiagUudtResponse" ENUM  "false","true";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 65535;
+BA_DEF_ BU_  "NmStationAddress" HEX 0 255;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 100000;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType","OnChangeAndIfActive","OnChangeAndIfActiveWithRepetition";
+BA_DEF_ SG_  "GenSigStartValue" INT 0 65535;
+BA_DEF_ SG_  "GenSigTimeoutValue" INT 0 1000000000;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic ","NotUsed ","NotUsed ","NotUsed ","NotUsed ","NotUsed ","NotUsed ","IfActive ","NoMsgSendType";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 65535;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 65535;
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BO_  "TpTxIndex" INT 0 10000;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmAsrNode" ENUM  "No","Yes";
+BA_DEF_  "Baudrate" INT 0 0;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "ILTxTimeout" INT 0 65535;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "NmAsrMessage" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmAsrCanMsgReducedTime" INT 0 0;
+BA_DEF_ BU_  "NmAsrCanMsgCycleOffset" INT 0 0;
+BA_DEF_  "NmAsrRepeatMessageTime" INT 0 0;
+BA_DEF_  "NmAsrWaitBusSleepTime" INT 0 0;
+BA_DEF_  "NmAsrTimeoutTime" INT 0 0;
+BA_DEF_  "NmAsrCanMsgCycleTime" INT 0 0;
+BA_DEF_  "NmAsrMessageCount" INT 0 256;
+BA_DEF_ BU_  "NmAsrNodeIdentifier" HEX 0 255;
+BA_DEF_  "NmAsrBaseAddress" HEX 0 0;
+BA_DEF_ SG_  "GenSigTimeoutTime" INT 0 65535;
+BA_DEF_REL_ BU_SG_REL_  "GenSigSuprvRespSubValue" INT 0 0;
+BA_DEF_REL_ BU_SG_REL_  "GenSigSuprvResp" ENUM  "None","TimeoutFlag","TimeoutDefaultValue";
+BA_DEF_DEF_  "GenSigTimeoutTime_DUT" 0;
+BA_DEF_DEF_  "DiagUudtResponse" "false";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigTimeoutValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "TpTxIndex" 0;
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "NmAsrNode" "No";
+BA_DEF_DEF_  "Baudrate" 500000;
+BA_DEF_DEF_  "NmType" "NmPwrTrainChery";
+BA_DEF_DEF_  "Manufacturer" "Chery";
+BA_DEF_DEF_  "ILTxTimeout" 40;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "NmAsrMessage" "No";
+BA_DEF_DEF_  "NmAsrCanMsgReducedTime" 0;
+BA_DEF_DEF_  "NmAsrCanMsgCycleOffset" 0;
+BA_DEF_DEF_  "NmAsrRepeatMessageTime" 3200;
+BA_DEF_DEF_  "NmAsrWaitBusSleepTime" 1500;
+BA_DEF_DEF_  "NmAsrTimeoutTime" 2000;
+BA_DEF_DEF_  "NmAsrCanMsgCycleTime" 640;
+BA_DEF_DEF_  "NmAsrMessageCount" 64;
+BA_DEF_DEF_  "NmAsrNodeIdentifier" 0;
+BA_DEF_DEF_  "NmAsrBaseAddress" 0;
+BA_DEF_DEF_  "GenSigTimeoutTime" 0;
+BA_DEF_DEF_REL_ "GenSigSuprvRespSubValue" 0;
+BA_DEF_DEF_REL_ "GenSigSuprvResp" "None";
+BA_ "NmAsrTimeoutTime" 1000;
+BA_ "NmAsrMessageCount" 128;
+BA_ "NmAsrCanMsgCycleTime" 100;
+BA_ "NmAsrWaitBusSleepTime" 5000;
+BA_ "NmAsrRepeatMessageTime" 500;
+BA_ "BusType" "CAN";
+BA_ "Manufacturer" "Vector";
+BA_ "NmType" "NmAsr";
+BA_ "ILTxTimeout" 0;
+BA_ "NmAsrBaseAddress" 1408;
+BA_ "DBName" "AB02_FAW_C095";
+BA_ "NmStationAddress" BU_ AVS 14;
+BA_ "NmAsrNode" BU_ AVS 1;
+BA_ "NmAsrCanMsgReducedTime" BU_ AVS 575;
+BA_ "NmAsrNodeIdentifier" BU_ AVS 14;
+BA_ "GenMsgSendType" BO_ 454 0;
+BA_ "GenMsgCycleTime" BO_ 454 50;
+BA_ "GenMsgSendType" BO_ 449 0;
+BA_ "GenMsgCycleTime" BO_ 449 50;
+BA_ "GenMsgSendType" BO_ 455 0;
+BA_ "GenMsgCycleTime" BO_ 455 50;
+BA_ "GenMsgSendType" BO_ 448 0;
+BA_ "GenMsgCycleTime" BO_ 448 50;
+BA_ "GenMsgSendType" BO_ 605 0;
+BA_ "GenMsgCycleTime" BO_ 605 100;
+BA_ "GenMsgSendType" BO_ 616 0;
+BA_ "GenMsgCycleTime" BO_ 616 100;
+BA_ "GenMsgSendType" BO_ 672 0;
+BA_ "GenMsgCycleTime" BO_ 672 100;
+BA_ "GenMsgSendType" BO_ 591 0;
+BA_ "GenMsgCycleTime" BO_ 591 100;
+BA_ "GenMsgSendType" BO_ 590 0;
+BA_ "GenMsgCycleTime" BO_ 590 100;
+BA_ "GenMsgSendType" BO_ 420 0;
+BA_ "GenMsgCycleTime" BO_ 420 50;
+BA_ "GenMsgSendType" BO_ 650 0;
+BA_ "GenMsgCycleTime" BO_ 650 100;
+BA_ "GenMsgSendType" BO_ 897 0;
+BA_ "GenMsgCycleTime" BO_ 897 100;
+BA_ "GenMsgSendType" BO_ 643 0;
+BA_ "GenMsgCycleTime" BO_ 643 100;
+BA_ "GenMsgSendType" BO_ 657 0;
+BA_ "GenMsgCycleTime" BO_ 657 100;
+BA_ "GenMsgSendType" BO_ 688 0;
+BA_ "GenMsgCycleTime" BO_ 688 100;
+BA_ "GenMsgSendType" BO_ 534 0;
+BA_ "GenMsgCycleTime" BO_ 534 100;
+BA_ "GenSigTimeoutTime_DUT" BO_ 534 500;
+BA_ "GenMsgSendType" BO_ 571 0;
+BA_ "GenMsgCycleTime" BO_ 571 100;
+BA_ "GenSigTimeoutTime_DUT" BO_ 571 500;
+BA_ "GenMsgSendType" BO_ 564 0;
+BA_ "GenMsgCycleTime" BO_ 564 100;
+BA_ "GenSigTimeoutTime_DUT" BO_ 564 500;
+BA_ "GenMsgCycleTime" BO_ 397 30;
+BA_ "GenMsgSendType" BO_ 397 0;
+BA_ "GenMsgCycleTime" BO_ 396 30;
+BA_ "GenMsgSendType" BO_ 396 0;
+BA_ "GenMsgCycleTime" BO_ 395 30;
+BA_ "GenMsgSendType" BO_ 395 0;
+BA_ "GenMsgCycleTime" BO_ 394 30;
+BA_ "GenMsgSendType" BO_ 394 0;
+BA_ "GenMsgCycleTime" BO_ 393 30;
+BA_ "GenMsgSendType" BO_ 393 0;
+BA_ "GenMsgCycleTime" BO_ 392 30;
+BA_ "GenMsgSendType" BO_ 392 0;
+BA_ "GenMsgCycleTime" BO_ 391 30;
+BA_ "GenMsgSendType" BO_ 391 0;
+BA_ "GenMsgCycleTime" BO_ 390 30;
+BA_ "GenMsgSendType" BO_ 390 0;
+BA_ "GenMsgCycleTime" BO_ 1422 100;
+BA_ "GenMsgSendType" BO_ 1422 0;
+BA_ "GenMsgILSupport" BO_ 1422 0;
+BA_ "NmAsrMessage" BO_ 1422 1;
+BA_ "GenMsgDelayTime" BO_ 1422 0;
+BA_ "GenMsgCycleTime" BO_ 604 100;
+BA_ "GenMsgSendType" BO_ 604 0;
+BA_ "GenMsgCycleTime" BO_ 546 100;
+BA_ "GenMsgSendType" BO_ 546 0;
+BA_ "GenMsgSendType" BO_ 678 0;
+BA_ "GenMsgCycleTime" BO_ 678 100;
+BA_ "GenMsgSendType" BO_ 588 0;
+BA_ "GenMsgCycleTime" BO_ 588 100;
+BA_ "GenMsgSendType" BO_ 578 0;
+BA_ "GenMsgCycleTime" BO_ 578 100;
+BA_ "GenMsgSendType" BO_ 148 0;
+BA_ "GenMsgCycleTime" BO_ 148 10;
+BA_ "GenMsgSendType" BO_ 652 0;
+BA_ "GenMsgCycleTime" BO_ 652 100;
+BA_ "GenMsgCycleTime" BO_ 648 100;
+BA_ "GenMsgSendType" BO_ 648 0;
+BA_ "GenMsgSendType" BO_ 308 0;
+BA_ "GenMsgCycleTime" BO_ 308 20;
+BA_ "GenMsgCycleTime" BO_ 306 20;
+BA_ "GenMsgSendType" BO_ 306 0;
+BA_ "GenMsgCycleTime" BO_ 421 50;
+BA_ "GenMsgSendType" BO_ 421 0;
+BA_ "GenMsgCycleTime" BO_ 586 100;
+BA_ "GenMsgSendType" BO_ 586 0;
+BA_ "GenMsgCycleTime" BO_ 560 100;
+BA_ "GenMsgSendType" BO_ 560 0;
+BA_ "GenMsgCycleTime" BO_ 304 20;
+BA_ "GenMsgSendType" BO_ 304 0;
+BA_ "GenMsgSendType" BO_ 194 0;
+BA_ "GenMsgCycleTime" BO_ 194 10;
+BA_ "GenMsgCycleTime" BO_ 388 30;
+BA_ "GenMsgSendType" BO_ 388 0;
+BA_ "DiagState" BO_ 2015 1;
+BA_ "DiagResponse" BO_ 1838 1;
+BA_ "DiagRequest" BO_ 1830 1;
+BA_ "GenMsgSendType" BO_ 1830 0;
+BA_ "GenMsgSendType" BO_ 656 0;
+BA_ "GenMsgCycleTime" BO_ 656 100;
+BA_ "GenSigTimeoutTime_DUT" BO_ 562 500;
+BA_ "GenMsgCycleTime" BO_ 562 100;
+BA_ "GenMsgSendType" BO_ 562 0;
+BA_ "GenMsgCycleTime" BO_ 180 10;
+BA_ "GenMsgSendType" BO_ 180 0;
+BA_ "GenMsgCycleTime" BO_ 192 10;
+BA_ "GenMsgSendType" BO_ 192 0;
+BA_ "GenMsgCycleTime" BO_ 208 10;
+BA_ "GenMsgSendType" BO_ 208 0;
+BA_ "GenMsgCycleTime" BO_ 600 100;
+BA_ "GenMsgSendType" BO_ 600 0;
+BA_ "GenSigSendType" SG_ 3221225472 FogLightSt_FR 0;
+BA_ "GenSigSendType" SG_ 3221225472 FogLightSt_FL 0;
+BA_ "GenSigStartValue" SG_ 3221225472 PDC_SpeechControlFeedback 0;
+BA_ "GenSigSendType" SG_ 3221225472 PDC_SpeechControlFeedback 1;
+BA_ "GenSigSendType" SG_ 3221225472 MinObjectRange 1;
+BA_ "GenSigSendType" SG_ 3221225472 RadarSysSt_Side 1;
+BA_ "GenSigSendType" SG_ 454 LiveCounter_PDC_9 0;
+BA_ "GenSigSendType" SG_ 454 Checksum_PDC_9 0;
+BA_ "GenSigStartValue" SG_ 449 RearObjCoordinateX 2000;
+BA_ "GenSigStartValue" SG_ 449 RearObjCoordinateY 2000;
+BA_ "GenSigStartValue" SG_ 449 FrontObjCoordinateX 2000;
+BA_ "GenSigStartValue" SG_ 449 FrontObjCoordinateY 2000;
+BA_ "GenSigSendType" SG_ 449 LiveCounter_PDC_4 0;
+BA_ "GenSigSendType" SG_ 449 Checksum_PDC_4 0;
+BA_ "GenSigSendType" SG_ 455 LiveCounter_PDC_10 0;
+BA_ "GenSigSendType" SG_ 455 Checksum_PDC_10 0;
+BA_ "GenSigSendType" SG_ 448 LiveCounter_PDC_3 0;
+BA_ "GenSigSendType" SG_ 448 Checksum_PDC_3 0;
+BA_ "GenSigSendType" SG_ 672 LiveCounter_TBOX_1 0;
+BA_ "GenSigSendType" SG_ 672 Checksum_TBOX_1 0;
+BA_ "GenSigSendType" SG_ 591 DoorSt_RR 0;
+BA_ "GenSigSendType" SG_ 590 DoorSt_RL 0;
+BA_ "GenSigStartValue" SG_ 650 TargetSelectionCenter_Y 1000;
+BA_ "GenSigStartValue" SG_ 650 TargetSelectionCenter_X 1000;
+BA_ "GenSigStartValue" SG_ 897 ScreenPressPosition_Y2 0;
+BA_ "GenSigSendType" SG_ 897 ScreenPressPosition_Y2 1;
+BA_ "GenSigStartValue" SG_ 897 ScreenPressPosition_X2 0;
+BA_ "GenSigSendType" SG_ 897 ScreenPressPosition_X2 1;
+BA_ "GenSigStartValue" SG_ 897 ScreenPressPosition_Y1 0;
+BA_ "GenSigSendType" SG_ 897 ScreenPressPosition_Y1 1;
+BA_ "GenSigStartValue" SG_ 897 ScreenPressPosition_X1 0;
+BA_ "GenSigSendType" SG_ 897 ScreenPressPosition_X1 1;
+BA_ "GenSigSendType" SG_ 1422 Extension_information 0;
+BA_ "GenSigSendType" SG_ 1422 Stay_awake_reason 0;
+BA_ "GenSigSendType" SG_ 1422 Wakeup_reason 0;
+BA_ "GenSigSendType" SG_ 604 SensorErrorSt_FL 1;
+BA_ "GenSigStartValue" SG_ 604 ObjectRange_FL 0;
+BA_ "GenSigSendType" SG_ 604 ObjectRange_FL 1;
+BA_ "GenSigSendType" SG_ 604 SensorErrorSt_FML 1;
+BA_ "GenSigStartValue" SG_ 604 ObjectRange_FML 0;
+BA_ "GenSigSendType" SG_ 604 ObjectRange_FML 1;
+BA_ "GenSigSendType" SG_ 604 SensorErrorSt_FMR 1;
+BA_ "GenSigSendType" SG_ 604 ObjectRange_FMR 1;
+BA_ "GenSigStartValue" SG_ 604 ObjectRange_FMR 0;
+BA_ "GenSigSendType" SG_ 604 SensorErrorSt_FR 1;
+BA_ "GenSigSendType" SG_ 604 ObjectRange_FR 1;
+BA_ "GenSigSendType" SG_ 604 SensorErrorSt_RL 1;
+BA_ "GenSigSendType" SG_ 604 ObjectRange_RL 1;
+BA_ "GenSigSendType" SG_ 604 SensorErrorSt_RML 1;
+BA_ "GenSigSendType" SG_ 604 ObjectRange_RML 1;
+BA_ "GenSigSendType" SG_ 604 SensorErrorSt_RMR 1;
+BA_ "GenSigSendType" SG_ 604 BuzeerCmd_PDC 1;
+BA_ "GenSigSendType" SG_ 604 ObjectRange_RMR 1;
+BA_ "GenSigStartValue" SG_ 604 ObjectRange_RMR 0;
+BA_ "GenSigSendType" SG_ 604 SensorErrorSt_RR 1;
+BA_ "GenSigSendType" SG_ 604 ObjectRange_RR 1;
+BA_ "GenSigStartValue" SG_ 604 ObjectRange_RR 0;
+BA_ "GenSigSendType" SG_ 604 RadarSysSt_Rear 1;
+BA_ "GenSigSendType" SG_ 604 RadarSysSt_Front 1;
+BA_ "GenSigSendType" SG_ 604 ErrorSt_PDC 1;
+BA_ "GenSigSendType" SG_ 604 SysSt_PDC 1;
+BA_ "GenSigStartValue" SG_ 546 AmbientTemp 80;
+BA_ "GenSigStartValue" SG_ 678 GPSTime_Day 0;
+BA_ "GenSigSendType" SG_ 678 GPSTime_Day 0;
+BA_ "GenSigStartValue" SG_ 678 GPSTime_Month 0;
+BA_ "GenSigSendType" SG_ 678 GPSTime_Month 0;
+BA_ "GenSigStartValue" SG_ 678 GPSTime_Year 0;
+BA_ "GenSigSendType" SG_ 678 GPSTime_Year 0;
+BA_ "GenSigStartValue" SG_ 678 GPSTime_Second 0;
+BA_ "GenSigSendType" SG_ 678 GPSTime_Second 0;
+BA_ "GenSigStartValue" SG_ 678 GPSTime_Minute 0;
+BA_ "GenSigSendType" SG_ 678 GPSTime_Minute 0;
+BA_ "GenSigStartValue" SG_ 678 GPSTime_Hour 0;
+BA_ "GenSigSendType" SG_ 678 GPSTime_Hour 0;
+BA_ "GenSigSendType" SG_ 588 MirrorFoldSt_FR 0;
+BA_ "GenSigSendType" SG_ 588 DoorSt_FR 0;
+BA_ "GenSigSendType" SG_ 578 LuggageDoorSt 1;
+BA_ "GenSigSendType" SG_ 148 BakePedalSt 0;
+BA_ "GenSigSendType" SG_ 148 LiveCounter_EMS_3 0;
+BA_ "GenSigSendType" SG_ 148 Checksum_EMS_3 0;
+BA_ "GenSigSendType" SG_ 652 LiveCounter_HU_Speech_1 1;
+BA_ "GenSigSendType" SG_ 652 HU_SpeedReq_AVS 1;
+BA_ "GenSigSendType" SG_ 652 Checksum_HU_Speech_1 1;
+BA_ "GenSigSendType" SG_ 648 AVSViewtypeReq 1;
+BA_ "GenSigSendType" SG_ 648 LiveCounter_HU_5 1;
+BA_ "GenSigSendType" SG_ 648 SwitchScreenResponseAVS 1;
+BA_ "GenSigSendType" SG_ 648 LanguageSet 1;
+BA_ "GenSigSendType" SG_ 648 MODReq 1;
+BA_ "GenSigSendType" SG_ 648 DynamicPGSReq 1;
+BA_ "GenSigSendType" SG_ 648 AVSFunctionExitReq 1;
+BA_ "GenSigSendType" SG_ 648 AVSViewModeReq 1;
+BA_ "GenSigSendType" SG_ 648 Checksum_HU_5 1;
+BA_ "GenSigStartValue" SG_ 308 Acceleration_Y 795.996608544992;
+BA_ "GenSigStartValue" SG_ 308 Acceleration_X 795.996608544992;
+BA_ "GenSigSendType" SG_ 308 YawRate 0;
+BA_ "GenSigStartValue" SG_ 308 YawRate 2000;
+BA_ "GenSigSendType" SG_ 308 Checksum_ESP_3 0;
+BA_ "GenSigSendType" SG_ 306 LiveCounter_ESP_2 0;
+BA_ "GenSigSendType" SG_ 306 WorkingSt_EPB 0;
+BA_ "GenSigSendType" SG_ 306 Checksum_ESP_2 0;
+BA_ "GenSigSendType" SG_ 421 DP_AVSandPDCSwitch 0;
+BA_ "GenSigSendType" SG_ 586 DoorSt_FL 0;
+BA_ "GenSigSendType" SG_ 586 MirrorFoldSt_FL 0;
+BA_ "GenSigSendType" SG_ 560 HazardWarningSt 0;
+BA_ "GenSigSendType" SG_ 560 TurningSt_right 0;
+BA_ "GenSigSendType" SG_ 560 TurningSt_Left 0;
+BA_ "GenSigSendType" SG_ 560 HighBeamSt_FR 0;
+BA_ "GenSigSendType" SG_ 560 HighBeamSt_FL 0;
+BA_ "GenSigSendType" SG_ 560 LowBeamSt_FR 0;
+BA_ "GenSigSendType" SG_ 560 LowBeamSt_FL 1;
+BA_ "GenSigSendType" SG_ 304 LiveCounter_ABS_3 0;
+BA_ "GenSigInactiveValue" SG_ 304 WheelPulse_RR 255;
+BA_ "GenSigSendType" SG_ 304 WheelPulse_RR 0;
+BA_ "GenSigStartValue" SG_ 304 WheelPulse_RR 0;
+BA_ "GenSigInactiveValue" SG_ 304 WheelPulse_RL 255;
+BA_ "GenSigSendType" SG_ 304 WheelPulse_RL 0;
+BA_ "GenSigStartValue" SG_ 304 WheelPulse_RL 0;
+BA_ "GenSigInactiveValue" SG_ 304 WheelPulse_FR 255;
+BA_ "GenSigSendType" SG_ 304 WheelPulse_FR 0;
+BA_ "GenSigStartValue" SG_ 304 WheelPulse_FR 0;
+BA_ "GenSigInactiveValue" SG_ 304 WheelPulse_FL 255;
+BA_ "GenSigSendType" SG_ 304 WheelPulse_FL 0;
+BA_ "GenSigStartValue" SG_ 304 WheelPulse_FL 0;
+BA_ "GenSigSendType" SG_ 304 Checksum_ABS_3 0;
+BA_ "GenSigSendType" SG_ 194 WheelSpeed_RR 0;
+BA_ "GenSigStartValue" SG_ 194 WheelSpeed_RR 0;
+BA_ "GenSigInactiveValue" SG_ 194 WheelSpeed_RL 32767;
+BA_ "GenSigSendType" SG_ 194 WheelSpeed_RL 0;
+BA_ "GenSigStartValue" SG_ 194 WheelSpeed_RL 0;
+BA_ "GenSigSendType" SG_ 194 LiveCounter_ABS_2 0;
+BA_ "GenSigSendType" SG_ 194 Checksum_ABS_2 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot3_info 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot3_DetecStatus 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot2_ParkDirection 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot2_Park_Type 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot2_info 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot2_DetecStatus 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot1_ParkDirection 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot1_Park_Type 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot1_info 0;
+BA_ "GenSigSendType" SG_ 388 APS_Slot1_DetecStatus 0;
+BA_ "GenSigSendType" SG_ 2015 Diag_Fun_Req 0;
+BA_ "GenSigSendType" SG_ 1838 AVS_Phy_Resp 0;
+BA_ "GenSigSendType" SG_ 1830 AVS_Phy_Req 0;
+BA_ "GenSigSendType" SG_ 656 HandParkingBrakeSt 0;
+BA_ "GenSigSendType" SG_ 656 OdometerValue 0;
+BA_ "GenSigStartValue" SG_ 656 OdometerValue 0;
+BA_ "GenSigTimeoutTime" SG_ 562 PowerMode 500;
+BA_ "GenSigInactiveValue" SG_ 562 PowerMode 15;
+BA_ "GenSigSendType" SG_ 562 PowerMode 0;
+BA_ "GenSigSendType" SG_ 180 LiveCounter_TCU_3 0;
+BA_ "GenSigSendType" SG_ 180 Checksum_TCU_3 0;
+BA_ "GenSigTimeoutTime" SG_ 180 LeverInfo 200;
+BA_ "GenSigSendType" SG_ 180 LeverInfo 0;
+BA_ "GenSigSendType" SG_ 192 LiveCounter_ABS_1 0;
+BA_ "GenSigInactiveValue" SG_ 192 DrivingDirection 3;
+BA_ "GenSigSendType" SG_ 192 DrivingDirection 0;
+BA_ "GenSigSendType" SG_ 192 VehicleSpeed 0;
+BA_ "GenSigStartValue" SG_ 192 VehicleSpeed 0;
+BA_ "GenSigInactiveValue" SG_ 192 VehicleSpeed 32767;
+BA_ "GenSigSendType" SG_ 192 WheelSpeed_FR 0;
+BA_ "GenSigStartValue" SG_ 192 WheelSpeed_FR 0;
+BA_ "GenSigStartValue" SG_ 192 WheelSpeed_FL 0;
+BA_ "GenSigSendType" SG_ 192 WheelSpeed_FL 0;
+BA_ "GenSigInactiveValue" SG_ 192 WheelSpeed_FL 32767;
+BA_ "GenSigSendType" SG_ 192 Checksum_ABS_1 0;
+BA_ "GenSigStartValue" SG_ 208 SAS_St 1;
+BA_ "GenSigSendType" SG_ 208 SAS_St 0;
+BA_ "GenSigSendType" SG_ 208 LiveCounter_SAS_1 0;
+BA_ "GenSigSendType" SG_ 208 Checksum_SAS_1 0;
+BA_ "GenSigSendType" SG_ 208 SteeringWAngleSign 0;
+BA_ "GenSigStartValue" SG_ 208 SteeringWAngle 0;
+BA_ "GenSigSendType" SG_ 208 SteeringWAngle 0;
+BA_ "GenSigSendType" SG_ 600 DybanicPGSSt_AVS 1;
+BA_ "GenSigSendType" SG_ 600 AVSCameraErrorSt_Right 1;
+BA_ "GenSigSendType" SG_ 600 AVSCameraErrorSt_Rear 1;
+BA_ "GenSigSendType" SG_ 600 AVSCameraErrorSt_Left 1;
+BA_ "GenSigSendType" SG_ 600 LanguageTypeSt_AVS 1;
+BA_ "GenSigSendType" SG_ 600 AVSCameraErrorSt_Front 1;
+BA_ "GenSigSendType" SG_ 600 AVSSt 1;
+BA_ "GenSigSendType" SG_ 600 AVSViewMode 1;
+BA_ "GenSigSendType" SG_ 600 AVSErrorSt 1;
+VAL_ 3221225472 FogLightSt_FR 1 "On" 0 "Off" ;
+VAL_ 3221225472 FogLightSt_FL 1 "On" 0 "Off" ;
+VAL_ 3221225472 PDC_SpeechControlFeedback 15 "Reserved" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "On Failure" 3 "On Success" 2 "Off Failure" 1 "Off Success" 0 "Inactive" ;
+VAL_ 3221225472 MinObjectRange 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Rear and Front Range 3" 10 "Rear and Front Range 2" 9 "Rear and Front Range 1" 8 "Reserved" 7 "Front Range 3" 6 "Front Range 2" 5 "Front Range 1" 4 "Reserved" 3 "Rear Range 3" 2 "Rear Range 2" 1 "Rear Range 1" 0 "No Object" ;
+VAL_ 3221225472 RadarSysSt_Side 1 "On" 0 "Off" ;
+VAL_ 604 SensorErrorSt_FL 1 "ERROR" 0 "No ERROR" ;
+VAL_ 604 ObjectRange_FL 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Range 3" 2 "Range 2" 1 "Range 1" 0 "No Object" ;
+VAL_ 604 SensorErrorSt_FML 1 "ERROR" 0 "No ERROR" ;
+VAL_ 604 ObjectRange_FML 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Range 3" 2 "Range 2" 1 "Range 1" 0 "No Object" ;
+VAL_ 604 SensorErrorSt_FMR 1 "ERROR" 0 "No ERROR" ;
+VAL_ 604 ObjectRange_FMR 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Range 3" 2 "Range 2" 1 "Range 1" 0 "No Object" ;
+VAL_ 604 SensorErrorSt_FR 1 "ERROR" 0 "No ERROR" ;
+VAL_ 604 ObjectRange_FR 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Range 3" 2 "Range 2" 1 "Range 1" 0 "No Object" ;
+VAL_ 604 SensorErrorSt_RL 1 "ERROR" 0 "No ERROR" ;
+VAL_ 604 ObjectRange_RL 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Range 3" 2 "Range 2" 1 "Range 1" 0 "No Object" ;
+VAL_ 604 ObjectRange_RML 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Range 3" 2 "Range 2" 1 "Range 1" 0 "No Object" ;
+VAL_ 604 SensorErrorSt_RMR 1 "ERROR" 0 "No ERROR" ;
+VAL_ 604 BuzeerCmd_PDC 7 "Reserved" 6 "System fault tone" 5 "Normal start tone" 4 "Low frequency tone" 3 "Reserved" 2 "High frequency tone" 1 "Continuous tone" 0 "Inactive" ;
+VAL_ 604 ObjectRange_RMR 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Range 3" 2 "Range 2" 1 "Range 1" 0 "No Object" ;
+VAL_ 604 SensorErrorSt_RR 1 "ERROR" 0 "No ERROR" ;
+VAL_ 604 ObjectRange_RR 15 "Invalid Value" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 3 "Range 3" 2 "Range 2" 1 "Range 1" 0 "No Object" ;
+VAL_ 604 RadarSysSt_Rear 1 "On" 0 "Off" ;
+VAL_ 604 RadarSysSt_Front 1 "On" 0 "Off" ;
+VAL_ 604 ErrorSt_PDC 1 "ERROR" 0 "No ERROR" ;
+VAL_ 604 SysSt_PDC 1 "On" 0 "Off" ;
+VAL_ 588 MirrorFoldSt_FR 3 "Reserved" 2 "Reserved" 1 "Fold" 0 "Unfold" ;
+VAL_ 588 DoorSt_FR 1 "Open" 0 "Close" ;
+VAL_ 578 LuggageDoorSt 1 "Open" 0 "Close" ;
+VAL_ 148 BakePedalSt 3 "Error" 2 "Reserved" 1 "Actuated" 0 "Not Actuated" ;
+VAL_ 652 HU_SpeedReq_AVS 3 "Reserved" 2 "on" 1 "off" 0 "inactive" ;
+VAL_ 648 AVSViewtypeReq 15 "reserved" 14 "Calibration Mode" 13 "Factory Mode" 12 "Reserved" 11 "Screen Dragged 3D View" 10 "Rear Rim View" 9 "Front Rim view" 8 "Reserved" 7 "Rear Wide View" 6 "Frnot Wide View" 5 "Top View and Right View" 4 "Top View and Left View" 3 "Top View and Rear View" 2 "Top View and Front View" 1 "All Top View" 0 "inactiive" ;
+VAL_ 648 SwitchScreenResponseAVS 3 "Reserved" 2 "AVS Exitr Response" 1 "AVS Enter Response" 0 "Inactive" ;
+VAL_ 648 LanguageSet 15 "reserved" 14 "reserved" 13 "reserved" 12 "reserved" 11 "reserved" 10 "reserved" 9 "reserved" 8 "reserved" 7 "reserved" 6 "Russian" 5 "Arabic" 4 "French" 3 "English" 2 "Traditional Chinese" 1 "Simplified Chinese" 0 "Inactive" ;
+VAL_ 648 MODReq 3 "Reserved" 2 "on" 1 "off" 0 "inactive" ;
+VAL_ 648 DynamicPGSReq 3 "Reserved" 2 "on" 1 "off" 0 "inactive" ;
+VAL_ 648 AVSFunctionExitReq 1 "active" 0 "Inactive" ;
+VAL_ 648 AVSViewModeReq 15 "invaild value" 14 "Calibration Mode" 13 "Factory Mode" 12 "Reserved" 11 "Screen Dragged 3D View" 10 "Rear Rim View" 9 "Front Rim view" 8 "Reserved" 7 "Rear Wide View" 6 "Frnot Wide View" 5 "Top View and Right View" 4 "Top View and Left View" 3 "Top View and Rear View" 2 "Top View and Front View" 1 "All Top View" 0 "inactiive" ;
+VAL_ 308 YRSSt 1 "Not Calibrated" 0 "Calibrated" ;
+VAL_ 306 WorkingSt_EPB 3 "unkown" 2 "Locked" 1 "Releasing/Locking" 0 "Released" ;
+VAL_ 421 DP_AVSandPDCSwitch 1 "pressed" 0 "Not pressed" ;
+VAL_ 586 MirrorFoldSt_FL 3 "Reserved" 2 "Reserved" 1 "Fold" 0 "Unfold" ;
+VAL_ 560 HazardWarningSt 1 "active" 0 "Inactive" ;
+VAL_ 560 TurningSt_right 1 "active" 0 "Inactive" ;
+VAL_ 560 TurningSt_Left 1 "active" 0 "Inactive" ;
+VAL_ 560 HighBeamSt_FR 1 "On" 0 "Off" ;
+VAL_ 560 HighBeamSt_FL 1 "On" 0 "Off" ;
+VAL_ 560 LowBeamSt_FR 1 "On" 0 "Off" ;
+VAL_ 560 LowBeamSt_FL 1 "On" 0 "Off" ;
+VAL_ 388 APS_Slot3_info 3 "Reserved" 2 "Obstacle" 1 "No obstacle" 0 "initial" ;
+VAL_ 388 APS_Slot3_DetecStatus 3 "Parkingslot detect using USSonly" 2 "Parkingslot detect using sen_fus" 1 "Parkingslot detect using AVMonly" 0 "Not detected" ;
+VAL_ 388 APS_Slot2_ParkDirection 1 "Left" 0 "Right" ;
+VAL_ 388 APS_Slot2_Park_Type 3 "Backward obiligue" 2 "Backward perpendicular" 1 "Parallel" 0 "initial" ;
+VAL_ 388 APS_Slot2_info 3 "Reserved" 2 "Obstacle" 1 "No obstacle" 0 "initial" ;
+VAL_ 388 APS_Slot2_DetecStatus 3 "Parkingslot detect using USSonly" 2 "Parkingslot detect using sen_fus" 1 "Parkingslot detect using AVMonly" 0 "Not detected" ;
+VAL_ 388 APS_Slot1_ParkDirection 1 "Left" 0 "Right" ;
+VAL_ 388 APS_Slot1_Park_Type 3 "Backward obiligue" 2 "Backward perpendicular" 1 "Parallel" 0 "initial" ;
+VAL_ 388 APS_Slot1_info 3 "Reserved" 2 "Obstacle" 1 "No obstacle" 0 "initial" ;
+VAL_ 388 APS_Slot1_DetecStatus 3 "Parkingslot detect using USSonly" 2 "Parkingslot detect using sen_fus" 1 "Parkingslot detect using AVMonly" 0 "Not detected" ;
+VAL_ 656 HandParkingBrakeSt 3 "Error" 2 "Reserved" 1 "Brake Tiqhtened" 0 "Brake Released" ;
+VAL_ 562 PowerMode 7 "InvaildValue" 6 "Reserved" 5 "Reserved" 4 "IgnitionOn" 3 "Reserved" 2 "Reserved" 1 "Reserved" 0 "OFF" ;
+VAL_ 180 LeverInfo 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 15 "Error Value" 8 "Reserved" 7 "7: Not connect
+
+" 6 "6: W
+
+" 5 "5: M
+
+" 4 "4: S
+
+" 3 "3: D
+
+" 2 "2: N
+
+" 1 "1: R
+
+" 0 "0: P
+
+" ;
+VAL_ 192 DrivingDirection 3 "invaild Value" 2 "Backward" 1 "Forward" 0 "Stop" ;
+VAL_ 208 SAS_St 3 "Pemanent erroe Del" 2 "Intemittent erroe Del" 1 "SAS not Cailbrated" 0 "SASAng and SpeCorrect" ;
+VAL_ 208 SteeringWAngleSign 1 "1: Right" 0 "0: Left
+
+" ;
+VAL_ 600 AVSViewtype 3 "Reserved" 2 "Other" 1 "3D" 0 "2D" ;
+VAL_ 600 SwitchScreenRequest_AVS 3 "Reserved" 2 "AVS Exit Request" 1 "AVS Enter Request" 0 "Inactive" ;
+VAL_ 600 DybanicPGSSt_AVS 1 "1: Error" 0 "0: No Error
+
+" ;
+VAL_ 600 AVSCameraErrorSt_Right 1 "1: Error" 0 "0: No Error
+
+" ;
+VAL_ 600 AVSCameraErrorSt_Rear 1 "1: Error" 0 "0: No Error
+
+" ;
+VAL_ 600 AVSCameraErrorSt_Left 1 "1: Error" 0 "0: No Error
+
+" ;
+VAL_ 600 LanguageTypeSt_AVS 15 "reserved" 14 "reserved" 13 "reserved" 12 "reserved" 11 "reserved" 10 "reserved" 9 "reserved" 8 "reserved" 7 "reserved" 6 "reserved" 5 "Russian" 4 "Arabic" 3 "French" 2 "English" 1 "Traditional Chinese" 0 "Simple Chinese" ;
+VAL_ 600 AVSCameraErrorSt_Front 1 "1: Error" 0 "0: No Error
+
+" ;
+VAL_ 600 AVSSt 1 "Function" 0 "off" ;
+VAL_ 600 AVSViewMode 15 "invaild value" 14 "Calibration Mode" 13 "Factory Mode" 12 "Reserved" 11 "Screen Dragged 3D View" 10 "Rear Rim View" 9 "Front Rim view" 8 "Reserved" 7 "Rear Wide View" 6 "Frnot Wide View" 5 "Top View and Right View" 4 "Top View and Left View" 3 "Top View and Rear View" 2 "Top View and Front View" 1 "All Top View" 0 "inactiive" ;
+VAL_ 600 AVSErrorSt 1 "1: Error" 0 "0: No Error
+
+" ;
+
